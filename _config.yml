@@ -7,10 +7,10 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Your Name / Site Title"
+title                    : "Andres Alejandro Navarro Alsina"
 title_separator          : "-"
-name                     : &name "Your Name"
-description              : &description "personal description"
+name                     : &name "Andres Navarro"
+description              : &description "I am a second year PhD candidate developing state of the art methods for accurate weak gravitational lensing analysis. I was a former member of the Dark Energy Survey, where I was full involved in the Y3 results, my main contributions were in the characterization of potential systematic errors due to PSF missestimation and the consequences of those in cosmological estimates.  Currently, I am working on Neural Network approachs for the shear estimation problem."
 url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "academicpages/academicpages.github.io"
