@@ -82,11 +82,11 @@ analytics:
 author:
   name             : "Andres Navarro"
   avatar           : "profile.png"
-  bio              : "PhD researcher at University of Bonn, Exploiting AI techniques for Astrophysics problems/"
+  bio              : "PhD researcher at University of Bonn, Exploiting ML techniques for Astrophysics research "
   location         : "Bonn, Germany"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : #"http://yourfullgooglescholarurl.com"
+  googlescholar    : "https://scholar.google.com/citations?user=HyzKl44AAAAJ&hl=en"
   email            : a.navarro.alsina@gmail.com
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
@@ -187,6 +187,9 @@ collections:
   talks:
     output: true
     permalink: /:collection/:path/
+  personal:
+    output: true
+    permalink: /:collection/:path/
 
 
 # Defaults
@@ -244,6 +247,15 @@ defaults:
       layout: talk
       author_profile: true
       share: true
+  # _personal
+  - scope:
+      path: ""
+      type: personal
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
 
 # Sass/SCSS
 sass:
