@@ -1,17 +1,19 @@
 ---
 layout: archive
-title: "k"
+title: "CV"
 permalink: /cv/
 author_profile: true
 redirect_from:
   - /resume
 ---
 
+You can find my CV [here](https://andalenavals.github.io/files/academic_cv.pdf)
+
 {% include base_path %}
 
-[here](https://andalenavals.github.io/files/academic_cv)
 
-<! --
+
+<!--
 Education
 ======
 * B.S. in GitHub, GitHub University, 2012
