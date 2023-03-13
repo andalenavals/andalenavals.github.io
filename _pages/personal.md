@@ -1,11 +1,6 @@
 ---
-permalink: /
+permalink: /personal/
 title: "Personal"
-excerpt: "Personal"
-author_profile: true
-redirect_from: 
-  - /personal/
-  - /personal.html
 ---
 I was born in Aguachica, a small town in the south caribean region of Colombia, it is not a particular famous place, except for being the fist city in Colombia where a [peace referendum](https://web.comisiondelaverdad.co/actualidad/blogs/aguachica-25-anos-de-una-apuesta-por-la-vida-y-la-paz) was carried out.
 
