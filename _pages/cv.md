@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "[here](https://andalenavals.github.io/files/academic_cv)"
+title: "k"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -9,6 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
+[here](https://andalenavals.github.io/files/academic_cv)
 
 <! --
 Education
