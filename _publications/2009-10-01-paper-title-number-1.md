@@ -1,5 +1,6 @@
 ---
-title: "Full list [here](https://arxiv.org/a/navarroalsina_a_1.html)"
+title: "[Full list](https://arxiv.org/a/navarroalsina_a_1.html)"
+date:
 ---
 
 
