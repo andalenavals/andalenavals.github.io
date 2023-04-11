@@ -10,9 +10,9 @@ To observe the inside of an object, we require high-energy photons such as X-ray
 
 Device working principle
 ======
-The GFNUN Compton Camera consists of an array of two detectors set up in a coincidence configuration. The backscattering detector is shaped like a hollow cylinder, with a lead shielding containing a ^{22}Na radioactive source located within the hole. This detector is made of a CsI crystal coupled to two photomultipliers. The position detector, on the other hand, is a CsI crystal with a special photomultiplier that allows for the current generated to be divided into a 64x64 pixel grid. The working principle of the camera is the following:
+The GFNUN Compton Camera consists of an array of two detectors set up in a coincidence configuration. The backscattering detector is shaped like a hollow cylinder, with a lead shielding containing a ^22^Na radioactive source located within the hole. This detector is made of a CsI crystal coupled to two photomultipliers. The position detector, on the other hand, is a CsI crystal with a special photomultiplier that allows for the current generated to be divided into a 64x64 pixel grid. The working principle of the camera is the following:
 
-
+<br/><img src='/images/research/compton/setup.png'>
 
 1. A beta decay occurs inside the source, producing an electron-positron pair that annihilates and creates a pair of 511 keV photons. These photons travel in opposite directions.
 
