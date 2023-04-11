@@ -7,7 +7,6 @@ author_profile: false
 
 To observe the inside of an object, we require high-energy photons such as X-rays and gamma radiation. Typically, imaging using X-rays or gamma radiation involves positioning the target between the radiation source and the detector. However, in many cases, it is not feasible to place the detector in the opposite direction to the source. Examples of such situations include detecting or imaging buried objects such as landmines, the inner side of pipes or walls, and others. The Compton Camera is a deviced developed by researchers in Bogotá and Darmstadt and lead by the Nuclear physics group of the Universidad Nacional de Colombia [GFNUN](http://gfnun.unal.edu.co), which uses backscattered gamma photons to produce images.
 
-
 Device working principle
 ======
 The GFNUN Compton Camera consists of an array of two detectors set up in a coincidence configuration. The backscattering detector is shaped like a hollow cylinder, with a lead shielding containing a ^22^Na radioactive source located within the hole. This detector is made of a CsI crystal coupled to two photomultipliers. The position detector, on the other hand, is a CsI crystal with a special photomultiplier that allows for the current generated to be divided into a 64x64 pixel grid. The working principle of the camera is the following:
@@ -23,3 +22,17 @@ The GFNUN Compton Camera consists of an array of two detectors set up in a coinc
 4. Once the backscattering detector registers the backscattered photon, the position detector saves the position (adding one count to the pixel) of the first photon that traveled towards it. A time window is fine-tuned to allow for "waiting for the signal", and if no photons arrive at the backscattering detector, no pixels will be filled in the position detector.
 
 5. This process is repeated for several photons. Due to the spatial distribution of the sample, differences in materials (primarily densities), and energies, an image is created as a result of the difference in the probability of the photons being scattered.
+
+The single backscattering equation
+======
+A toy model to have an intuitive idea of how the number of backscattered photons depends on the material and the energy of the incidenc photon correspond to assume an uniform single-element material with photon perfectly collimated. Under these circunstances the number of backscattered phtons is given by
+<br/><img src='/images/research/compton/eq1.png'>
+
+
+GEANT4 simulation
+======
+To improve the device design and enhance the quality of the images produced, we utilize Monte Carlo simulations. We use the widely-used toolkit, GEANT4, which is popular in the fields of particle and medical physics and can be used for most studies involving the passage of radiation through materials.
+
+We tested various materials for the detectors, as well as different geometrical configurations, and a pure beta decay source. By running simulations with different parameters, we can evaluate how they affect the image quality and optimize the design of the device for improved performance.
+
+<br/><img src='/images/research/compton/simcam.png'>
