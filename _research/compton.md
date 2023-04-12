@@ -51,3 +51,4 @@ Case study: Examining the inner region of a corroded tube
 ======
 
 Corrosion and erosion can cause pipes in pipelines (such as those used for oil, gas, and water) to fracture. This process starts at the surface, but examining the inner surface of a pipeline can be challenging and may require breaking it. In this case study, we aim to demonstrate the capabilities of the Compton Camera for imaging a corroded tube from the inner side.
+<br/><img src='/images/research/compton/case1setup.png'>
