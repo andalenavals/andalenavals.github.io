@@ -62,3 +62,6 @@ The experimental centering of the sample was innacurate that is why the circular
 
 Case study II: localizing objects inside/behind a wall
 ======
+Another example where transmitted photons are not accessible and backscattering techniques are required is in the imaging of buried objects (such as landmines) or objects hidden behind thick surfaces like walls. In this study, we will investigate the capabilities of the Compton Camera to image one object (pliers) behind ceramics, and gradually increase the ceramic thickness until the object can no longer be distinguished. The figure below depicts the experimental setup, as well as the simulation geometry.
+
+<br/><img src='/images/research/compton/case2setup.png' width="600">
