@@ -41,10 +41,9 @@ To improve the device design and enhance the quality of the images produced, we 
 We tested various materials for the detectors, as well as different geometrical configurations, and a pure beta decay source. By running simulations with different parameters, we can evaluate how they affect the image quality and optimize the design of the device for improved performance.
 
 <br/><img src='/images/research/compton/simcam.png'>
-<br/><img src='/images/research/compton/simcam.png' width="40" height="40" >
+<br/><img src='/images/research/compton/simcam.png' width="400" height="400" >
 
-![Alt Text]<br/><img src='/images/research/compton/cada100.gif'>
-![Alt Text]<br/><img src='/images/research/compton/cada1000.gif'>
+<br/><img src='/images/research/compton/cada1000.gif'>
 
 
 
