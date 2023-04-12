@@ -53,9 +53,11 @@ Case study I: Examining the inner region of a corroded tube
 Corrosion and erosion can cause pipes in pipelines (such as those used for oil, gas, and water) to fracture. This process starts at the surface, but examining the inner surface of a pipeline can be challenging and may require breaking it. In this case study, we aim to demonstrate the capabilities of the Compton Camera for imaging a corroded tube from the inner side.
 
 The image below shows the simulation and the experimental setup of the imaging system. Notice the defect of the tube is located in the innerside, and the camera is located in the opposite site.
+
 <br/><img src='/images/research/compton/case1setup.png' width="400">
 
 Comparison of images of the defect inside a pipe, when using a visible camera we changed the direction where the camera is pointing, if the visible camera is located in the same direction than the gamma camera then the defect would not be observed. Recall that the Compton camera image is obtained using photons that were backsattered (this is not a transmition technique)
+
 <br/><img src='/images/research/compton/results_case1.png' width="600">
 
 The experimental centering of the sample was innacurate that is why the circular region representing the defect is towards the bottom of the image.
@@ -63,6 +65,9 @@ The experimental centering of the sample was innacurate that is why the circular
 Case study II: localizing objects inside/behind a wall
 ======
 Another example where transmitted photons are not accessible and backscattering techniques are required is in the imaging of buried objects (such as landmines) or objects hidden behind thick surfaces like walls. In this study, we will investigate the capabilities of the Compton Camera to image one object (pliers) behind ceramics, and gradually increase the ceramic thickness until the object can no longer be distinguished. The figure below depicts the experimental setup, as well as the simulation geometry.
+
 <br/><img src='/images/research/compton/case2setup.png' width="600">
+
 Below is presented the images obtained with the Compton camera and the simulated version of the same setup. It was obseved that for the current version of the camera we have a maximum depth of around 5 cm. However this is highly dependent on the involved materials.
+
 <br/><img src='/images/research/compton/results_case2.png' width="600">
