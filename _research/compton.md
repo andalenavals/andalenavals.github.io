@@ -41,6 +41,14 @@ To improve the device design and enhance the quality of the images produced, we 
 We tested various materials for the detectors, as well as different geometrical configurations, and a pure beta decay source. By running simulations with different parameters, we can evaluate how they affect the image quality and optimize the design of the device for improved performance.
 
 <br/><img src='/images/research/compton/simcam.png'>
+<br/><img src='/images/research/compton/simcam.png' width="40" height="40" >
 
-<br/><img src='/images/research/compton/cada100.gif'>
-<br/><img src='/images/research/compton/cada1000.gif'>
+![Alt Text]<br/><img src='/images/research/compton/cada100.gif'>
+![Alt Text]<br/><img src='/images/research/compton/cada1000.gif'>
+
+
+
+Case study: Examining the inner region of a corroded tube
+======
+
+Corrosion and erosion can cause pipes in pipelines (such as those used for oil, gas, and water) to fracture. This process starts at the surface, but examining the inner surface of a pipeline can be challenging and may require breaking it. In this case study, we aim to demonstrate the capabilities of the Compton Camera for imaging a corroded tube from the inner side.
