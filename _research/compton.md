@@ -26,12 +26,12 @@ The GFNUN Compton Camera consists of an array of two detectors set up in a coinc
 The single backscattering equation
 ======
 A toy model can help provide an intuitive understanding of how the number of backscattered photons is influenced by the material and energy of the incident photon. This model assumes a uniform single-element material and perfectly collimated photons. Under these circumstances, the number of backscattered photons can be expressed as follows:
-<br/><img src='/images/research/compton/eq1.png' width="600">
+<br/><img src='/images/research/compton/eq1.png' width="500">
 
 where $I_{0}$ is the incident intensity of photons, $B(E_{\gamma},x)$ is the buildup term, $\mu$ is the attenuation coefficient for the incident photons, $\mu(\theta)$ is the attenuation coefficient for the single backscattered photons (which, in general, depends on the energy), Z is the atomic number/effective number of the material, $n(x)$ is the number density (which depends on the molar density of the material), $d$ is the thickness of the dispersing material, and $\frac{\sigma_{k}}{d\Omega}$ is the Klein-Nishina differential cross section.
 
 Assuming there are not multiple dispersion and the source is perfeclty collimated, then $B(E_{\gamma},x)=1$, and if the material is homegeneous the number density is independent on the position, we can summarize the equation for the backscattered photons as
-<br/><img src='/images/research/compton/eq2.png' width="600">
+<br/><img src='/images/research/compton/eq2.png' width="500">
 
 
 GEANT4 simulation
@@ -43,12 +43,22 @@ We tested various materials for the detectors, as well as different geometrical 
 <br/><img src='/images/research/compton/simcam.png' width="800" height="400" >
 
 Although the backscattering detector is used as time trigger, we can obtain from the simulation the energy spectra and compare it with the observed in the laboratory one.
-<br/><img src='/images/research/compton/cada1000.gif' width="600">
+<br/><img src='/images/research/compton/cada1000.gif' width="500">
 
 
 
-Case study: Examining the inner region of a corroded tube
+Case study I: Examining the inner region of a corroded tube
 ======
 
 Corrosion and erosion can cause pipes in pipelines (such as those used for oil, gas, and water) to fracture. This process starts at the surface, but examining the inner surface of a pipeline can be challenging and may require breaking it. In this case study, we aim to demonstrate the capabilities of the Compton Camera for imaging a corroded tube from the inner side.
-<br/><img src='/images/research/compton/case1setup.png'>
+
+The image below shows the simulation and the experimental setup of the imaging system. Notice the defect of the tube is located in the innerside, and the camera is located in the opposite site.
+<br/><img src='/images/research/compton/case1setup.png' width="600">
+
+Comparison of images of the defect inside a pipe, when using a visible camera we changed the direction where the camera is pointing, if the visible camera is located in the same direction than the gamma camera then the defect would not be observed. Recall that the Compton camera image is obtained using photons that were backsattered (this is not a transmition technique)
+<br/><img src='/images/research/compton/results_case1.png' width="600">
+
+The experimental centering of the sample was innacurate that is why the circular region representing the defect is towards the bottom of the image.
+
+Case study II: localizing objects inside/behind a wall
+======
