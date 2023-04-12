@@ -26,24 +26,24 @@ The GFNUN Compton Camera consists of an array of two detectors set up in a coinc
 The single backscattering equation
 ======
 A toy model can help provide an intuitive understanding of how the number of backscattered photons is influenced by the material and energy of the incident photon. This model assumes a uniform single-element material and perfectly collimated photons. Under these circumstances, the number of backscattered photons can be expressed as follows:
-<br/><img src='/images/research/compton/eq1.png'>
+<br/><img src='/images/research/compton/eq1.png' width="600">
 
 where $I_{0}$ is the incident intensity of photons, $B(E_{\gamma},x)$ is the buildup term, $\mu$ is the attenuation coefficient for the incident photons, $\mu(\theta)$ is the attenuation coefficient for the single backscattered photons (which, in general, depends on the energy), Z is the atomic number/effective number of the material, $n(x)$ is the number density (which depends on the molar density of the material), $d$ is the thickness of the dispersing material, and $\frac{\sigma_{k}}{d\Omega}$ is the Klein-Nishina differential cross section.
 
 Assuming there are not multiple dispersion and the source is perfeclty collimated, then $B(E_{\gamma},x)=1$, and if the material is homegeneous the number density is independent on the position, we can summarize the equation for the backscattered photons as
-<br/><img src='/images/research/compton/eq2.png' width="800">
+<br/><img src='/images/research/compton/eq2.png' width="600">
 
 
 GEANT4 simulation
 ======
-To improve the device design and enhance the quality of the images produced, we utilize Monte Carlo simulations. We use the widely-used toolkit, GEANT4, which is popular in the fields of particle and medical physics and can be used for most studies involving the passage of radiation through materials.
+To improve the device design and enhance the quality of the images produced, we utilize Monte Carlo simulations. We use the widely-used toolkit, [GEANT4](https://geant4.web.cern.ch/), which is popular in the fields of particle and medical physics and can be used for most studies involving the passage of radiation through materials.
 
 We tested various materials for the detectors, as well as different geometrical configurations, and a pure beta decay source. By running simulations with different parameters, we can evaluate how they affect the image quality and optimize the design of the device for improved performance.
 
-<br/><img src='/images/research/compton/simcam.png'>
 <br/><img src='/images/research/compton/simcam.png' width="800" height="400" >
 
-<br/><img src='/images/research/compton/cada1000.gif'>
+Although the backscattering detector is used as time trigger, we can obtain from the simulation the energy spectra and compare it with the observed in the laboratory one.
+<br/><img src='/images/research/compton/cada1000.gif' width="600">
 
 
 
