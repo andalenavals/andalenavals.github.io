@@ -11,9 +11,10 @@ PSF errors
 ======
 Biases in weak gravitational lensing are studied using the linear approximation
 
-$
+$$
 \begin{equation}
   \hat{g_{i}}-g^{\rm{true}}_{i}=\mu_{i}g^{\rm{true}}_{i}+c_{i}+\rm{noise},
   \label{eq:biasdef}
 \end{equation}
-$
+$$
+
