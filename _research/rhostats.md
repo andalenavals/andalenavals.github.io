@@ -7,8 +7,8 @@ author_profile: false
 
 Rho-statistics are the two-point correlation function of residual errors from the Point Spread Function (PSF) modeling. Stars are point sources, and the images we obtain from stars are actually a representation of the PSF. Therefore, we can use images of stars for modeling the PSF. The PSF has two main contributions: the optics of the telescope and the atmospheric smearing, and it is position and wavelength-dependent. The PSF needs to be interpolated to the galaxy's position, and this interpolation might introduce errors given the variance of the PSF across the field of view. To study systematic biases that might arise from the interpolation scheme, a set of stars is left out from the PSF modeling. Then, by comparing the shape measurements of those reserved stars with the expected shape using the interpolation scheme, we can obtain residuals of the PSF that will help identify problematic sources, exposures, or regions where the PSF systematics exceed the requirements. Additionally, we can use these residuals as building blocks of PSF residual point correlation functions, which can be propagated in the likelihood analysis to study the consequences on final cosmological estimates.
 
-PSF errors
-======
+# PSF errors
+
 Biases in weak gravitational lensing are studied using the linear approximation
 
 $$
@@ -20,6 +20,11 @@ $$
 
 where the mutiplicative bias $\mu_{i}$ and the additive one $c_{i}$ are obtained using a regression for a population of galaxies. To see the effect of miss estimation of PSF, we can consider as an estimator the observerd ellipticity without the correction for the PSF, and make simulations of galaxies with different shear and PSF. For avoiding other sources of biases and see just the PSF ones, we simulate only one galaxy with just a $e_{2}$ and then a shear is applied in the first component, this garantees there is not shape noise.
 
-<br/><img src='/images/research/rhostats/psf_size.gif' width="500">
+## PSF size errors
+When changing only the size of the PSF we can observe a multiplicative bias contribution
+<br/><img src='/images/research/rhostats/psf_size.gif' width="800">
 
-<br/><img src='/images/research/rhostats/psf_anisotropy.gif' width="500">
+## PSF anisotropy errors
+When changing the ellipticity of the PSF, we can observe an additive contribution to the bias, when there is change in the first component of the shear PSF ellipticity, and a subtle multiplicative bias hwen the PSF is aligned with the galaxy ellipticity as ilustrated below
+
+<br/><img src='/images/research/rhostats/psf_anisotropy.gif' width="800">
