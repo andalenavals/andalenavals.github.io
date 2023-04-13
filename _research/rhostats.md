@@ -30,9 +30,9 @@ When changing the ellipticity of the PSF, we can observe an additive contributio
 <br/><img src='/images/research/rhostats/psf_anisotropy.gif' width="800">
 
 In the Y3 analysis of [DES](https://www.darkenergysurvey.org/)  the effects of PSF biases in the likelihood analysis using the shear two point correlation function goes like follows:
-$$
-\begin{itemize}
+$
+\begin{enumerate}
 \item The multiplicative bias is treated as a nuisance parameter in the likelihood, there is is one for each of the four tomographic bins, and the mean and prior range are determined using simulations
 \item The addive bias could be treated similarly, however his contribution can be neglected if we observe the PSF additive contamination to be subdominant.
-\end{itemize}
-$$
+\end{enumerate}
+$
