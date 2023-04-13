@@ -18,3 +18,8 @@ $$
 \end{equation}
 $$
 
+where the mutiplicative bias $\mu_{i}$ and the additive one $c_{i}$ are obtained using a regression for a population of galaxies. To see the effect of miss estimation of PSF, we can consider as an estimator the observerd ellipticity without the correction for the PSF, and make simulations of galaxies with different shear and PSF. For avoiding other sources of biases and see just the PSF ones, we simulate only one galaxy with just a $e_{2}$ and then a shear is applied in the first component, this garantees there is not shape noise.
+
+<br/><img src='/images/research/rhostats/psf_size.gif' width="500">
+
+<br/><img src='/images/research/rhostats/psf_anisotropy.gif' width="500">
