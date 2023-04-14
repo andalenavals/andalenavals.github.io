@@ -31,5 +31,83 @@ When changing the ellipticity of the PSF, we can observe an additive contributio
 
 In the Y3 analysis of [DES](https://www.darkenergysurvey.org/)  the effects of PSF biases in the likelihood analysis using the shear two point correlation function goes like follows:
 
-* The multiplicative bias is treated as a nuisance parameter in the likelihood, there is is one for each of the four tomographic bins, and the mean and prior range are determined using simulations
+* The multiplicative bias is treated as a nuisance parameter in the likelihood, there is is one for each of the four tomographic bins, and the mean and prior range are determined using simulations.
 * The addive bias could be treated similarly, however his contribution can be neglected if we observe the PSF additive contamination to be subdominant.
+
+## Rho statistics
+
+$$
+\begin{equation}
+e^{\textrm{gal}}=\gamma+\delta e^{\textrm{sys}}+\delta e^{\textrm{noise}},
+\label{eq:observed}
+\end{equation}
+$$
+
+$$
+\begin{equation}
+\boxed{
+\delta e^{\textrm{sys}}_{\textrm{PSF}}=\alpha e^{\textrm{p}}+\beta\left(e^{\textrm{*}}-e^{p}\right)+\eta\left(e^{*}\frac{T^{\textrm{*}}-T^{p}}{T^{\textrm{*}}}\right),
+}
+\label{eq:new}
+\end{equation}
+$$
+
+$$
+\begin{equation}
+\delta e^{\textrm{sys}}_{\textrm{PSF}}=\alpha e^{\textrm{p}}+\beta q+\eta w.
+\label{eq:simple}
+\end{equation}
+$$
+
+$$
+\begin{align}
+\left\langle e^{\textrm{gal}} e^{\textrm{p}} \right\rangle &=  \left\langle \delta e^{\textrm{sys}}_{\textrm{PSF}} e^{p} \right\rangle+\left\langle \gamma \right\rangle \left\langle e^{p} \right\rangle \label{eq:firstsystemofeqrhosys1}  \\
+\left\langle e^{\textrm{gal}} q \right\rangle  &= \left\langle \delta e^{\textrm{sys}}_{\textrm{PSF}} q\right\rangle +\left\langle \gamma \right\rangle \left\langle q \right\rangle \label{eq:firstsystemofeqrhosys2} \\ 
+\left\langle e^{\textrm{gal}} w \right\rangle &= \left\langle \delta e^{\textrm{sys}}_{\textrm{PSF}} w\right\rangle +\left\langle \gamma \right\rangle \left\langle w \right\rangle \label{eq:firstsystemofeqrhosys3} .
+\end{align}
+$$
+
+$$
+\begin{equation}
+\boxed{
+    x'=x-\left\langle x \right\rangle,
+    }
+\end{equation}
+$$
+
+$$
+\begin{equation}
+\boxed{
+\begin{aligned}
+    \rho_{0}'=\left\langle e^{p'}e^{p'} \right\rangle \quad , \quad \rho_{1}'= \left\langle q'q' \right\rangle \quad , \quad   \rho_{2}'= \left\langle q'e^{p'} \right\rangle, \\
+    \rho_{3}'= \left\langle w'w' \right\rangle \quad , \quad  \rho_{4}'= \left\langle q'w' \right\rangle \quad , \quad  \rho_{5}'= \left\langle e^{p'}w'\right\rangle,  
+\end{aligned}
+}
+\label{eq:newrhotats}
+\end{equation}
+$$
+
+$$
+\begin{equation}
+\boxed{
+    \tau_{0}'=\left\langle e^{\textrm{gal}'}e^{p'}\right\rangle \quad , \quad \tau_{2}'=\left\langle e^{\textrm{gal}'}q'\right\rangle \quad , \quad \tau_{5}'= \left\langle e^{\textrm{gal}'}w'\right\rangle 
+}
+\label{eq:tautats}
+\end{equation}
+$$
+
+$$
+\begin{align}
+\tau_{0}'  &=  \alpha\rho_{0}'+\beta\rho_{2}'+\eta\rho_{5}' \label{eq:systaurho1}\\
+\tau_{2}'  &= \alpha\rho_{2}'+\beta\rho_{1}'+\eta\rho_{4}' \label{eq:systaurho2}\\
+\tau_{5}'  &=  \alpha\rho_{5}'+\beta\rho_{4}'+\eta\rho_{3}' \label{eq:systaurho3}.
+\end{align}
+$$
+
+## PSF error propagation in cosmological estimates
+$$
+\begin{equation}
+\mathscr{L}=|C|^{-1/2} \exp\left(-\frac{{\bf d}^T {\bf C}^{-1}{\bf d}}{2}\right),
+\label{eq:likelihoodbebq}
+\end{equation}
+$$
