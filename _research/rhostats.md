@@ -53,3 +53,17 @@ $$
 \end{equation}
 $$
 
+$$
+\begin{equation}
+\delta e^{\textrm{sys}}_{\textrm{PSF}}=\alpha e^{\textrm{p}}+\beta q+\eta w.
+\label{eq:simple}
+\end{equation}
+$$
+
+$$
+\begin{align}
+\left\langle e^{\textrm{gal}} e^{\textrm{p}} \right\rangle &=  \left\langle \delta e^{\textrm{sys}}_{\textrm{PSF}} e^{p} \right\rangle+\left\langle \gamma \right\rangle \left\langle e^{p} \right\rangle \label{eq:firstsystemofeqrhosys1}  \\
+\left\langle e^{\textrm{gal}} q \right\rangle  &= \left\langle \delta e^{\textrm{sys}}_{\textrm{PSF}} q\right\rangle +\left\langle \gamma \right\rangle \left\langle q \right\rangle \label{eq:firstsystemofeqrhosys2} \\ 
+\left\langle e^{\textrm{gal}} w \right\rangle &= \left\langle \delta e^{\textrm{sys}}_{\textrm{PSF}} w\right\rangle +\left\langle \gamma \right\rangle \left\langle w \right\rangle \label{eq:firstsystemofeqrhosys3} .
+\end{align}
+$$
