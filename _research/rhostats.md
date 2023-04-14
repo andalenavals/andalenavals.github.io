@@ -112,16 +112,3 @@ $$
 \label{eq:likelihoodbebq}
 \end{equation}
 $$
-
-$$
-\begin{equation}
-\begin{aligned}
-    \xi_{p}= \left[ \alpha\rho_{0+}'+\beta\rho_{2+}'+\eta\rho_{5+}', \alpha\rho_{0-}'+\beta\rho_{2-}'+\eta\rho_{5-}', \right.
-    \\
-    \alpha\rho_{2+}'+\beta\rho_{1+}'+\eta\rho_{4+}', \alpha\rho_{2-}'+\beta\rho_{1-}'+\eta\rho_{4-}'), 
-    \\
-    \left. \alpha\rho_{5+}'+\beta\rho_{4+}'+\eta\rho_{3+}', \alpha\rho_{5-}'+\beta\rho_{4-}'+\eta\rho_{3-}' \right],
-\end{aligned}
-\end{equation}
-$$
-
