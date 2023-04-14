@@ -1,6 +1,6 @@
 ---
 title: "Compton Camera"
-excerpt: "Imaging device using Compton backscattered photons 1<br/><img src='/images/research/g4.png'>"
+excerpt: "<br/><img src='/images/research/g4.png'>"
 collection: research
 author_profile: false
 ---

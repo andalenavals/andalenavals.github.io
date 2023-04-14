@@ -1,6 +1,6 @@
 ---
 title: "Propagation of PSF errors in cosmological estimates"
-excerpt: "PSF diagnostic functions serve to control systematic uncertainties and quantify PSF biases in cosmological estimates.. <br/><img src='/images/research/DES_thumbnail.jpg'>"
+excerpt: "<br/><img src='/images/research/DES_thumbnail.jpg'>"
 collection: research
 author_profile: false
 date: 2022-03-01
@@ -36,4 +36,20 @@ In the Y3 analysis of [DES](https://www.darkenergysurvey.org/)  the effects of P
 * The addive bias could be treated similarly, however his contribution can be neglected if we observe the PSF additive contamination to be subdominant.
 
 ## Rho statistics
+
+$$
+\begin{equation}
+e^{\textrm{gal}}=\gamma+\delta e^{\textrm{sys}}+\delta e^{\textrm{noise}},
+\label{eq:observed}
+\end{equation}
+$$
+
+$$
+\begin{equation}
+\boxed{
+\delta e^{\textrm{sys}}_{\textrm{PSF}}=\alpha e^{\textrm{p}}+\beta\left(e^{\textrm{*}}-e^{p}\right)+\eta\left(e^{*}\frac{T^{\textrm{*}}-T^{p}}{T^{\textrm{*}}}\right),
+}
+\label{eq:new}
+\end{equation}
+$$
 
