@@ -111,3 +111,52 @@ $$
 \label{eq:likelihoodbebq}
 \end{equation}
 $$
+
+$$
+\begin{equation}
+\begin{aligned}
+    \xi_{p}= \left[ \alpha\rho_{0+}'+\beta\rho_{2+}'+\eta\rho_{5+}', \alpha\rho_{0-}'+\beta\rho_{2-}'+\eta\rho_{5-}', \right.
+    \\
+    \alpha\rho_{2+}'+\beta\rho_{1+}'+\eta\rho_{4+}', \alpha\rho_{2-}'+\beta\rho_{1-}'+\eta\rho_{4-}'), 
+    \\
+    \left. \alpha\rho_{5+}'+\beta\rho_{4+}'+\eta\rho_{3+}', \alpha\rho_{5-}'+\beta\rho_{4-}'+\eta\rho_{3-}' \right],
+\end{aligned}
+\end{equation}
+$$
+
+$$
+\begin{equation}
+    \hat{\xi}=\left[\tau_{0+}, \tau_{0-},\tau_{2+}, \tau_{2-},\tau_{5+},\tau_{5-} \right]
+\end{equation}
+$$
+
+$$
+\begin{equation}
+\xi_{+}^{ij'(\textrm{obs})} = \left\langle e^{i'}_{\textrm{obs}}e^{j'}_{\textrm{obs}} \right\rangle = \left\langle ( \gamma^{i'} + \delta e^{i'}_{\textrm{sys}}) ( \gamma^{j'} + \delta e^{j'}_{\textrm{sys}} )\right\rangle 
+\end{equation}
+$$
+
+$$
+\begin{equation}
+\xi_{+}^{ij'(\textrm{obs})} = \xi_{+}^{'(t)} + \left\langle \delta e^{i'}_{\textrm{sys}}\delta e^{j'}_{\textrm{sys}} \right\rangle ,
+\label{eq:sheartwopointtomocontamination}
+\end{equation}
+$$
+
+$$
+\begin{equation}
+\xi_{+\textrm{obs}}^{ij'}= \xi_{+ t}^{ij'} +\left\langle (\alpha^{i} e^{p'}+ \beta^{i} q'+\eta^{i} w')(\alpha^{j} e^{p'}+ \beta^{j}q' +\eta^{j} w') \right\rangle 
+\end{equation}
+$$
+
+$$
+\begin{equation}
+\boxed{
+\begin{aligned}
+\xi_{\textrm{obs}}^{ij'} =\xi_{+ t}^{ij'} +\alpha^{i}\alpha^{j} \rho_{0}'+ \beta^{i}\beta^{j} \rho_{1}' + \eta^{i}\eta^{j}\rho_{3}' + \left(\beta^{i}\alpha^{j} + \beta^{j}\alpha^{i}\right)\rho_{2}'+
+\\ \left( \alpha^{i}\eta^{j}+\alpha^{j}\eta^{i} \right)\rho_{5}'+ \left(\beta^{i}\eta^{j}+\beta^{j}\eta^{i} \right)\rho_{4}',
+\end{aligned}
+}
+\label{eq:tomographicbias}
+\end{equation}
+$$
