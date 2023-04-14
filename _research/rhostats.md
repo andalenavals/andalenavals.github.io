@@ -67,3 +67,41 @@ $$
 \left\langle e^{\textrm{gal}} w \right\rangle &= \left\langle \delta e^{\textrm{sys}}_{\textrm{PSF}} w\right\rangle +\left\langle \gamma \right\rangle \left\langle w \right\rangle \label{eq:firstsystemofeqrhosys3} .
 \end{align}
 $$
+
+$$
+\begin{equation}
+\boxed{
+    x'=x-\left\langle x \right\rangle,
+    }
+\end{equation}
+$$
+
+$$
+\begin{equation}
+\boxed{
+\begin{aligned}
+    \rho_{0}'=\left\langle e^{p'}e^{p'} \right\rangle \quad , \quad \rho_{1}'= \left\langle q'q' \right\rangle \quad , \quad   \rho_{2}'= \left\langle q'e^{p'} \right\rangle, \\
+    \rho_{3}'= \left\langle w'w' \right\rangle \quad , \quad  \rho_{4}'= \left\langle q'w' \right\rangle \quad , \quad  \rho_{5}'= \left\langle e^{p'}w'\right\rangle,  
+\end{aligned}
+}
+\label{eq:newrhotats}
+\end{equation}
+$$
+
+$$
+\begin{equation}
+\boxed{
+    \tau_{0}'=\left\langle e^{\textrm{gal}'}e^{p'}\right\rangle \quad , \quad \tau_{2}'=\left\langle e^{\textrm{gal}'}q'\right\rangle \quad , \quad \tau_{5}'= \left\langle e^{\textrm{gal}'}w'\right\rangle 
+}
+\label{eq:tautats}
+\end{equation}
+$$
+
+$$
+\begin{align}
+\tau_{0}'  &=  \alpha\rho_{0}'+\beta\rho_{2}'+\eta\rho_{5}' \label{eq:systaurho1}\\
+\tau_{2}'  &= \alpha\rho_{2}'+\beta\rho_{1}'+\eta\rho_{4}' \label{eq:systaurho2}\\
+\tau_{5}'  &=  \alpha\rho_{5}'+\beta\rho_{4}'+\eta\rho_{3}' \label{eq:systaurho3}.
+\end{align}
+$$
+
