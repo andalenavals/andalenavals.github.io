@@ -125,8 +125,3 @@ $$
 \end{equation}
 $$
 
-$$
-\begin{equation}
-    \hat{\xi}=\left[\tau_{0+}, \tau_{0-},\tau_{2+}, \tau_{2-},\tau_{5+},\tau_{5-} \right]
-\end{equation}
-$$
