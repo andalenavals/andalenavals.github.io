@@ -105,3 +105,28 @@ $$
 \end{align}
 $$
 
+## PSF error propagation in cosmological estimates
+$$
+\begin{equation}
+\mathscr{L}=|C|^{-1/2} \exp\left(-\frac{{\bf d}^T {\bf C}^{-1}{\bf d}}{2}\right),
+\label{eq:likelihoodbebq}
+\end{equation}
+$$
+
+$$
+\begin{equation}
+\begin{aligned}
+    \xi_{p}= \left[ \alpha\rho_{0+}'+\beta\rho_{2+}'+\eta\rho_{5+}', \alpha\rho_{0-}'+\beta\rho_{2-}'+\eta\rho_{5-}', \right.
+    \\
+    \alpha\rho_{2+}'+\beta\rho_{1+}'+\eta\rho_{4+}', \alpha\rho_{2-}'+\beta\rho_{1-}'+\eta\rho_{4-}'), 
+    \\
+    \left. \alpha\rho_{5+}'+\beta\rho_{4+}'+\eta\rho_{3+}', \alpha\rho_{5-}'+\beta\rho_{4-}'+\eta\rho_{3-}' \right],
+\end{aligned}
+\end{equation}
+$$
+
+$$
+\begin{equation}
+    \hat{\xi}=\left[\tau_{0+}, \tau_{0-},\tau_{2+}, \tau_{2-},\tau_{5+},\tau_{5-} \right]
+\end{equation}
+$$
