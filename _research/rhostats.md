@@ -100,16 +100,8 @@ $$
 \end{align}
 $$
 
-## PSF error propagation in cosmological estimates
-$$
-\begin{equation}
-\mathscr{L}=|C|^{-1/2} \exp\left(- \frac{ \textbf{d}^T\textbf{C}^{-1}\textbf{d}}{2} \right)
-\label{eq:likelihoodbebq}
-\end{equation}
-$$
+Where we can find the parameters by sampling the posterior of the likelihood $$ \begin{equation} \mathscr{L}=|C|^{-1/2} \exp\left(- \frac{ \textbf{d}^T\textbf{C}^{-1}\textbf{d}}{2} \right) \end{equation} $$, where $\textbf{d}=\xi_{p}-\hat{\xi}$, and
 
-
-$$
 \begin{equation}
 \begin{aligned}
     \xi_{p}= \left[ \alpha\rho_{0+}+\beta\rho_{2+}+\eta\rho_{5+}, \alpha\rho_{0-}+\beta\rho_{2-}+\eta\rho_{5-}, \right.
@@ -121,15 +113,26 @@ $$
 \end{equation}
 $$
 
+is the model vector, and 
+
 $$
 \begin{equation}
     \hat{\xi}=\left[\tau_{0+}, \tau_{0-},\tau_{2+}, \tau_{2-},\tau_{5+},\tau_{5-} \right]
 \end{equation}
 $$
 
+the data vector. Both of which correspond to the concatenation of Tau and Rho statistics, for the +/- correlaction functions. A set of parameters $\alpha$, $\beta$, and $\eta$ needs to be found for each tomographic bin, since the galaxy properties distribution are different and might correlate differently with PSF residuals. However, this does not mean these parameters are scale dependent.
+
+
+## PSF error propagation in cosmological estimates
+
+Once we have an estimate for the $\alpha$, $\beta$, and $\eta$, we can study the effects in final cosmoological estimates, using the Rho statistics.
+
+
+
 $$
 \begin{equation}
-\xi_{+}^{ij'(\textrm{obs})} = \left\langle e^{i'}_{\textrm{obs}}e^{j'}_{\textrm{obs}} \right\rangle = \left\langle ( \gamma^{i'} + \delta e^{i'}_{\textrm{sys}}) ( \gamma^{j'} + \delta e^{j'}_{\textrm{sys}} )\right\rangle 
+\xi_{+}^{ij(\textrm{obs})}' = \left\langle e^{i'}_{\textrm{obs}}e^{j'}_{\textrm{obs}} \right\rangle = \left\langle ( \gamma^{i'} + \delta e^{i'}_{\textrm{sys}}) ( \gamma^{j'} + \delta e^{j'}_{\textrm{sys}} )\right\rangle 
 \end{equation}
 $$
 
