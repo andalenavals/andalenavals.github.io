@@ -100,7 +100,11 @@ $$
 \end{align}
 $$
 
-Where we can find the parameters by sampling the posterior of the likelihood $$ \begin{equation} \mathscr{L}=|C|^{-1/2} \exp\left(- \frac{ \textbf{d}^T\textbf{C}^{-1}\textbf{d}}{2} \right) \end{equation} $$, where $$\textbf{d}=\xi_{p}-\hat{\xi}$$, and
+Where we can find the parameters by sampling the posterior of the likelihood
+$$ \begin{equation}
+\mathscr{L}=|C|^{-1/2} \exp\left(- \frac{ \textbf{d}^T\textbf{C}^{-1}\textbf{d}}{2} \right)
+\end{equation}, $$
+where $$\textbf{d}=\xi_{p}-\hat{\xi}$$, and
 
 \begin{equation}
 \begin{aligned}
@@ -122,6 +126,12 @@ $$
 $$
 
 the data vector. Both of which correspond to the concatenation of Tau and Rho statistics, for the +/- correlaction functions. A set of parameters $\alpha$, $\beta$, and $\eta$ needs to be found for each tomographic bin, since the galaxy properties distribution are different and might correlate differently with PSF residuals. However, this does not mean these parameters are scale dependent.
+
+<br/><img src='/images/research/rhostats/rho1p_all_rsrs.png' width="200">
+<br/><img src='/images/research/rhostats/rho2p_all_rsrs.png' width="200">
+<br/><img src='/images/research/rhostats/tau0_bestfit_abe_flask.png' width="200">
+<br/><img src='/images/research/rhostats/tau1_bestfit_abe_flask.png' width="200">
+<br/><img src='/images/research/rhostats/tau2_bestfit_abe_flask.png' width="200">
 
 
 ## PSF error propagation in cosmological estimates
