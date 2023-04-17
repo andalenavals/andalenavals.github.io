@@ -126,21 +126,20 @@ $$
 \end{equation}
 $$
 
-the data vector. Both of which correspond to the concatenation of Tau and Rho statistics, for the +/- correlaction functions. A set of parameters $\alpha$, $\beta$, and $\eta$ needs to be found for each tomographic bin, since the galaxy properties distribution are different and might correlate differently with PSF residuals. However, this does not mean these parameters are scale dependent.
+the data vector. Both of which correspond to the concatenation of Tau and Rho statistics, for the +/- correlaction functions. The covariance matrix $$\textbf{C}$$ es estimated using FLASK simulations. A  set of parameters $\alpha$, $\beta$, and $\eta$ needs to be found for each tomographic bin, since the galaxy properties distribution are different and might correlate differently with PSF residuals. However, this does not mean these parameters are scale dependent.
 
 The figure below show one particular set of Rho statistics.
+
 <br/><img src='/images/research/rhostats/rho1p_all_rsrs.png' width="500">
 
 The figure below show one particular set of Tau statistics, for all the tomograpic bins in DES Y3, and in as continues line the best fit model.
+
 <br/><img src='/images/research/rhostats/tau2_bestfit_abe_flask.png' width="500">
 
 
 ## PSF error propagation in cosmological estimates
 
 Once we have an estimate for the $\alpha$, $\beta$, and $\eta$, we can study the effects in final cosmoological estimates, using the Rho statistics.
-
-
-
 
 $$
 \begin{equation}
@@ -172,3 +171,9 @@ $$
 \label{eq:tomographicbias}
 \end{equation}
 $$
+
+
+<br/><img src='/images/research/rhostats/xicont_and_xipfid.png' width="800">
+
+
+<br/><img src='/images/research/rhostats/finalcomparison.png' width="800">
