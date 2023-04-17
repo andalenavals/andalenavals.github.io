@@ -126,7 +126,7 @@ $$
 \end{equation}
 $$
 
-the data vector. Both of which correspond to the concatenation of Tau and Rho statistics, for the +/- correlaction functions. The covariance matrix $$\textbf{C}$$ es estimated using FLASK simulations. A  set of parameters $\alpha$, $\beta$, and $\eta$ needs to be found for each tomographic bin, since the galaxy properties distribution are different and might correlate differently with PSF residuals. However, this does not mean these parameters are scale dependent.
+the data vector. Both of which correspond to the concatenation of Tau and Rho statistics, for the +/- correlaction functions. The covariance matrix $$\textbf{C}$$ es estimated using FLASK simulations.  A set of parameters $\alpha$, $\beta$, and $\eta$ must be determined for each tomographic bin, since the galaxy property distributions are different and may correlate differently with PSF residuals. However, this does not imply that these parameters are scale-dependent.
 
 The figure below show one particular set of Rho statistics.
 
@@ -139,7 +139,7 @@ The figure below show one particular set of Tau statistics, for all the tomograp
 
 ## PSF error propagation in cosmological estimates
 
-Once we have an estimate for the $\alpha$, $\beta$, and $\eta$, we can study the effects in final cosmological estimates, using the Rho statistics, as follows:
+Once we have estimates for $\alpha$, $\beta$, and $\eta$, we can study their effects on the final cosmological estimates using the Rho statistics as follows:
 
 $$
 \begin{equation}
@@ -172,12 +172,12 @@ $$
 \end{equation}
 $$
 
-We have now the shear 2PCF contamination due to PSF additive systematic biases $\delta \xi$, as a function of Rho statistics and the best fitted $\alpha$, $\beta$, and $\eta$. Figure below shows the comparisong of the PSF contamination and the fiducial cosmology data vector. Notice that the contamination is subdominant, almost two orders of magnitude below the fiducial values.
+We now have the shear 2PCF contamination due to PSF additive systematic biases $\delta \xi$, as a function of Rho statistics and the best-fitted $\alpha$, $\beta$, and $\eta$. The figure below shows the comparison of the PSF contamination and the fiducial cosmology data vector. Notice that the contamination is subdominant, almost two orders of magnitude below the fiducial values.
 
 
 <br/><img src='/images/research/rhostats/xicont_and_xipfid.png' width="600">
 
-Using the $+1\sigma$ values of the PSF contamination, we can create a test data vector, contaminating the fiducial cosmology adding and substracting it. With this contaminated data vector we then can perform a likelihood analysis for final cosmological estimates and confirm that this effect is indeed subdominant. The figure below show the contour plots obtained
+By using the $+1\sigma$ values of the PSF contamination, we can create a test data vector by adding and subtracting it from the fiducial cosmology. With this contaminated data vector, we can perform a likelihood analysis for final cosmological estimates and confirm that this effect is indeed subdominant. The figure below shows the contour plots obtained.
 
 <br/><img src='/images/research/rhostats/finalcomparison.png' width="600">
 
