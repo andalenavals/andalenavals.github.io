@@ -6,7 +6,7 @@ author_profile: false
 date: 2022-03-01
 ---
 
-Rho-statistics are the two-point correlation function (TPCF) of residual errors from the Point Spread Function (PSF) modeling. Stars are point sources, and the images we obtain from stars are actually a representation of the PSF. Therefore, we can use images of stars for modeling the PSF. The PSF has two main contributions: the optics of the telescope and the atmospheric smearing, and it is position and wavelength-dependent. The PSF needs to be interpolated to the galaxy's position, and this interpolation might introduce errors given the variance of the PSF across the field of view. To study systematic biases that might arise from the interpolation scheme, a set of stars is left out from the PSF modeling. Then, by comparing the shape measurements of those reserved stars with the expected shape using the interpolation scheme, we can obtain residuals of the PSF that will help identify problematic sources, exposures, or regions where the PSF systematics exceed the requirements. Additionally, we can use these residuals as building blocks of PSF residual point correlation functions, which can be propagated in the likelihood analysis to study the consequences on final cosmological estimates.
+Rho-statistics are the two-point correlation function (2PCF) of residual errors from the Point Spread Function (PSF) modeling. Stars are point sources, and the images we obtain from stars are actually a representation of the PSF. Therefore, we can use images of stars for modeling the PSF. The PSF has two main contributions: the optics of the telescope and the atmospheric smearing, and it is position and wavelength-dependent. The PSF needs to be interpolated to the galaxy's position, and this interpolation might introduce errors given the variance of the PSF across the field of view. To study systematic biases that might arise from the interpolation scheme, a set of stars is left out from the PSF modeling. Then, by comparing the shape measurements of those reserved stars with the expected shape using the interpolation scheme, we can obtain residuals of the PSF that will help identify problematic sources, exposures, or regions where the PSF systematics exceed the requirements. Additionally, we can use these residuals as building blocks of PSF residual point correlation functions, which can be propagated in the likelihood analysis to study the consequences on final cosmological estimates.
 
 # PSF errors
 
@@ -33,7 +33,7 @@ When changing the ellipticity of the PSF, we can observe an additive contributio
 In the Y3 analysis of [DES](https://www.darkenergysurvey.org/)  the effects of PSF biases in comology goes like follows:
 
 * The multiplicative bias is treated as a nuisance parameter in the likelihood, there is one for each of the four tomographic bins, and the mean and prior range are determined using simulations.
-* The addive bias could be treated similarly, however his contribution can be neglected if we observe the PSF additive contamination in the TPCF to be subdominant.
+* The addive bias could be treated similarly, however his contribution can be neglected if we observe the PSF additive contamination in the 2PCF to be subdominant.
 
 ## Rho statistics
 We can write the additive systematics in the ellipticity estimator as $$
@@ -60,7 +60,7 @@ $$
 \end{equation}
 $$
 
-Now, we want to determine the parameters $\alpha$, $\beta$ and $\eta$ fitting a model involving star-galaxy correlation. The TPCF of each PSF systematic field with the galaxy shape estimator is
+Now, we want to determine the parameters $\alpha$, $\beta$ and $\eta$ fitting a model involving star-galaxy correlation. The 2PCF of each PSF systematic field with the galaxy shape estimator is
 
 $$
 \begin{align}
@@ -139,7 +139,7 @@ The figure below show one particular set of Tau statistics, for all the tomograp
 
 ## PSF error propagation in cosmological estimates
 
-Once we have an estimate for the $\alpha$, $\beta$, and $\eta$, we can study the effects in final cosmoological estimates, using the Rho statistics.
+Once we have an estimate for the $\alpha$, $\beta$, and $\eta$, we can study the effects in final cosmological estimates, using the Rho statistics, as follows:
 
 $$
 \begin{equation}
@@ -164,16 +164,19 @@ $$
 \begin{equation}
 \boxed{
 \begin{aligned}
-\xi_{\textrm{obs}}^{ij'} =\xi_{+ t}^{ij'} +\alpha^{i}\alpha^{j} \rho_{0}'+ \beta^{i}\beta^{j} \rho_{1}' + \eta^{i}\eta^{j}\rho_{3}' + \left(\beta^{i}\alpha^{j} + \beta^{j}\alpha^{i}\right)\rho_{2}'+
-\\ \left( \alpha^{i}\eta^{j}+\alpha^{j}\eta^{i} \right)\rho_{5}'+ \left(\beta^{i}\eta^{j}+\beta^{j}\eta^{i} \right)\rho_{4}',
+\xi_{\textrm{obs}}^{ij'} =\xi_{+ t}^{ij'} +\alpha^{i}\alpha^{j} \rho_{0}+ \beta^{i}\beta^{j} \rho_{1} + \eta^{i}\eta^{j}\rho_{3} + \left(\beta^{i}\alpha^{j} + \beta^{j}\alpha^{i}\right)\rho_{2}+
+\\ \left( \alpha^{i}\eta^{j}+\alpha^{j}\eta^{i} \right)\rho_{5}+ \left(\beta^{i}\eta^{j}+\beta^{j}\eta^{i} \right)\rho_{4}.
 \end{aligned}
 }
 \label{eq:tomographicbias}
 \end{equation}
 $$
 
+We have now the shear 2PCF contamination due to PSF additive systematic biases $\delta \xi$, as a function of Rho statistics and the best fitted $\alpha$, $\beta$, and $\eta$. Figure below shows the comparisong of the PSF contamination and the fiducial cosmology data vector. Notice that the contamination is subdominant, almost two orders of magnitude below the fiducial values.
 
-<br/><img src='/images/research/rhostats/xicont_and_xipfid.png' width="800">
 
+<br/><img src='/images/research/rhostats/xicont_and_xipfid.png' width="600">
 
-<br/><img src='/images/research/rhostats/finalcomparison.png' width="800">
+Using the $+1\sigma$ values of the PSF contamination, we can create a test data vector, contaminating the fiducial cosmology adding and substracting it. With this contaminated data vector we then can perform a likelihood analysis for final cosmological estimates and confirm that this effect is indeed subdominant. The figure below show the contour plots obtained
+
+<br/><img src='/images/research/rhostats/finalcomparison.png' width="600">
