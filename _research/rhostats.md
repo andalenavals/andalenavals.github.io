@@ -19,10 +19,10 @@ $$
 \end{equation}
 $$
 
-where the mutiplicative bias $\mu_{i}$ and the additive one $c_{i}$ are obtained using a regression for a population of galaxies. To see the effect of miss estimation of PSF, we can consider as an estimator the observerd ellipticity without the correction for the PSF, and make simulations of galaxies with different shear and PSF. For avoiding other sources of biases and see just the PSF ones, we simulate only one galaxy with just a $e_{2}$ and then a shear is applied in the first component, this garantees there is not shape noise.
+where the mutiplicative bias $\mu_{i}$ and the additive one $c_{i}$ are obtained using a linear regression for a population of galaxies. To see the effect of miss estimation of PSF, we can consider as an estimator the observerd ellipticity without the correction for the PSF, and make simulations of galaxies with different shear values and PSF. For avoiding other sources of biases and see just the PSF ones, we simulate only one galaxy with just a $e_{2}$ component, and sheared only in the first component direction, this garantees there is not shape noise.
 
 ## PSF size errors
-When changing only the size of the PSF we can observe a multiplicative bias contribution
+When changing only the size of the PSF and keeping it circular, we can observe a multiplicative bias contribution. As ilustrated in the animation below wehre as sheare estimator HSM is used.
 <br/><img src='/images/research/rhostats/psf_size.gif' width="800">
 
 ## PSF anisotropy errors
@@ -30,20 +30,20 @@ When changing the ellipticity of the PSF, we can observe an additive contributio
 
 <br/><img src='/images/research/rhostats/psf_anisotropy.gif' width="800">
 
-In the Y3 analysis of [DES](https://www.darkenergysurvey.org/)  the effects of PSF biases in the likelihood analysis using the shear two point correlation function goes like follows:
+In the Y3 analysis of [DES](https://www.darkenergysurvey.org/)  the effects of PSF biases in comology goes like follows:
 
-* The multiplicative bias is treated as a nuisance parameter in the likelihood, there is is one for each of the four tomographic bins, and the mean and prior range are determined using simulations.
-* The addive bias could be treated similarly, however his contribution can be neglected if we observe the PSF additive contamination to be subdominant.
+* The multiplicative bias is treated as a nuisance parameter in the likelihood, there is one for each of the four tomographic bins, and the mean and prior range are determined using simulations.
+* The addive bias could be treated similarly, however his contribution can be neglected if we observe the PSF additive contamination in the two point correlation function to be subdominant.
 
 ## Rho statistics
-
+We can write the additive systematics in the ellipticity estimator as 
 $$
 \begin{equation}
 e^{\textrm{gal}}=\gamma+\delta e^{\textrm{sys}}+\delta e^{\textrm{noise}},
 \label{eq:observed}
 \end{equation}
 $$
-
+To get the PSF associated part of $\delta e^{\textrm{sys}}$, the parametrization
 $$
 \begin{equation}
 \boxed{
@@ -52,6 +52,7 @@ $$
 \label{eq:new}
 \end{equation}
 $$
+is proposed where field with the $*$ symbol are measurements of the reserved stars not used during the PSF modelling, and the $p$ label are the PSF values interpolated at the position of those stars. The previous parametrization is justified when doing gaussian propagation of errors using unweighted moments. The first term correspond to the PSF leakage, second one is the error associated to PSF shape residuals $q=e^{\textrm{*}}-e^{p}$, and the third one to PSF size residuals $w = e^{*}\frac{T^{\textrm{*}}-T^{p}}{T^{\textrm{*}}}$, using that notation \cref{eq:new} is
 
 $$
 \begin{equation}
@@ -59,7 +60,7 @@ $$
 \label{eq:simple}
 \end{equation}
 $$
-
+Now we want to determine
 $$
 \begin{align}
 \left\langle e^{\textrm{gal}} e^{\textrm{p}} \right\rangle &=  \left\langle \delta e^{\textrm{sys}}_{\textrm{PSF}} e^{p} \right\rangle+\left\langle \gamma \right\rangle \left\langle e^{p} \right\rangle \label{eq:firstsystemofeqrhosys1}  \\
@@ -108,7 +109,7 @@ $$
 ## PSF error propagation in cosmological estimates
 $$
 \begin{equation}
-\mathscr{L}=|C|^{-1/2} \exp\left(- \frac{ \textbf{d}^T\textbf{C}^{-1}\textbf{d}}{2} \right),
+\mathscr{L}=|C|^{-1/2} \exp\left(- \frac{ \textbf{d}^T\textbf{C}^{-1}\textbf{d}}{2} \right)
 \label{eq:likelihoodbebq}
 \end{equation}
 $$
