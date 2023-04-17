@@ -60,7 +60,7 @@ $$
 \end{equation}
 $$
 
-Now we want to determine, the parameters $\alpha$, $\beta$ and $\eta$ fitting a model involving star-galaxy correlation. The TPCF of each PSF systematic field with the galaxy shape estimator is
+Now, we want to determine the parameters $\alpha$, $\beta$ and $\eta$ fitting a model involving star-galaxy correlation. The TPCF of each PSF systematic field with the galaxy shape estimator is
 
 $$
 \begin{align}
@@ -70,15 +70,20 @@ $$
 \end{align}
 $$
 
-To symply calculation we can work with mean subtracted fields, therefore we intoduced the primed notation, $$x'=x-\left\langle x \right\rangle$$. Defining the Tau statistics as $$\begin{equation}
-    \tau_{0}'=\left\langle e^{\textrm{gal}'}e^{p'}\right\rangle \quad , \quad \tau_{2}'=\left\langle e^{\textrm{gal}'}q'\right\rangle \quad , \quad \tau_{5}'= \left\langle e^{\textrm{gal}'}w'\right\rangle 
-\end{equation}$$, and introducing the stars correlation, $\textbf{Rho-statics}$,
+To symply calculation we can work with mean subtracted fields, we introduce the primed notation, $$x'=x-\left\langle x \right\rangle$$. Defining the Tau statistics as
+
+$$\begin{equation}
+    \tau_{0}=\left\langle e^{\textrm{gal}'}e^{p'}\right\rangle \quad , \quad \tau_{2}=\left\langle e^{\textrm{gal}'}q'\right\rangle \quad , \quad \tau_{5}= \left\langle e^{\textrm{gal}'}w'\right\rangle 
+\end{equation}$$
+
+and introducing the stars correlation, $\textbf{Rho-statics}$,
+
 $$
 \begin{equation}
 \boxed{
 \begin{aligned}
-    \rho_{0}'=\left\langle e^{p'}e^{p'} \right\rangle \quad , \quad \rho_{1}'= \left\langle q'q' \right\rangle \quad , \quad   \rho_{2}'= \left\langle q'e^{p'} \right\rangle, \\
-    \rho_{3}'= \left\langle w'w' \right\rangle \quad , \quad  \rho_{4}'= \left\langle q'w' \right\rangle \quad , \quad  \rho_{5}'= \left\langle e^{p'}w'\right\rangle,  
+    \rho_{0}=\left\langle e^{p'}e^{p'} \right\rangle \quad , \quad \rho_{1}= \left\langle q'q' \right\rangle \quad , \quad   \rho_{2}= \left\langle q'e^{p'} \right\rangle, \\
+    \rho_{3}= \left\langle w'w' \right\rangle \quad , \quad  \rho_{4}= \left\langle q'w' \right\rangle \quad , \quad  \rho_{5}= \left\langle e^{p'}w'\right\rangle,  
 \end{aligned}
 }
 \label{eq:newrhotats}
@@ -89,9 +94,9 @@ our fitting problem is simplyfied to:
 
 $$
 \begin{align}
-\tau_{0}'  &=  \alpha\rho_{0}'+\beta\rho_{2}'+\eta\rho_{5}' \label{eq:systaurho1}\\
-\tau_{2}'  &= \alpha\rho_{2}'+\beta\rho_{1}'+\eta\rho_{4}' \label{eq:systaurho2}\\
-\tau_{5}'  &=  \alpha\rho_{5}'+\beta\rho_{4}'+\eta\rho_{3}' \label{eq:systaurho3}.
+\tau_{0}  &=  \alpha\rho_{0}+\beta\rho_{2}+\eta\rho_{5} \label{eq:systaurho1}\\
+\tau_{2}  &= \alpha\rho_{2}+\beta\rho_{1}+\eta\rho_{4} \label{eq:systaurho2}\\
+\tau_{5}  &=  \alpha\rho_{5}+\beta\rho_{4}+\eta\rho_{3} \label{eq:systaurho3}.
 \end{align}
 $$
 
@@ -107,11 +112,11 @@ $$
 $$
 \begin{equation}
 \begin{aligned}
-    \xi_{p}= \left[ \alpha\rho_{0+}'+\beta\rho_{2+}'+\eta\rho_{5+}', \alpha\rho_{0-}'+\beta\rho_{2-}'+\eta\rho_{5-}', \right.
+    \xi_{p}= \left[ \alpha\rho_{0+}+\beta\rho_{2+}+\eta\rho_{5+}, \alpha\rho_{0-}+\beta\rho_{2-}+\eta\rho_{5-}, \right.
     \\
-    \alpha\rho_{2+}'+\beta\rho_{1+}'+\eta\rho_{4+}', \alpha\rho_{2-}'+\beta\rho_{1-}'+\eta\rho_{4-}'), 
+    \alpha\rho_{2+}'+\beta\rho_{1+}+\eta\rho_{4+}, \alpha\rho_{2-}+\beta\rho_{1-}+\eta\rho_{4-}), 
     \\
-    \left. \alpha\rho_{5+}'+\beta\rho_{4+}'+\eta\rho_{3+}', \alpha\rho_{5-}'+\beta\rho_{4-}'+\eta\rho_{3-}' \right],
+    \left. \alpha\rho_{5+}+\beta\rho_{4+}+\eta\rho_{3+}, \alpha\rho_{5-}+\beta\rho_{4-}+\eta\rho_{3-} \right],
 \end{aligned}
 \end{equation}
 $$
