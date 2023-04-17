@@ -108,7 +108,7 @@ $$
 ## PSF error propagation in cosmological estimates
 $$
 \begin{equation}
-\mathscr{L}=|C|^{-1/2} ,
+\mathscr{L}=|C|^{-1/2} \exp\left(-\right),
 \label{eq:likelihoodbebq}
 \end{equation}
 $$
