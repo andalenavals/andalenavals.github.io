@@ -180,3 +180,30 @@ We have now the shear 2PCF contamination due to PSF additive systematic biases $
 Using the $+1\sigma$ values of the PSF contamination, we can create a test data vector, contaminating the fiducial cosmology adding and substracting it. With this contaminated data vector we then can perform a likelihood analysis for final cosmological estimates and confirm that this effect is indeed subdominant. The figure below show the contour plots obtained
 
 <br/><img src='/images/research/rhostats/finalcomparison.png' width="600">
+
+
+$$
+\begin{table}
+\centering
+\begin{tabular} { l  c c c c}
+ Parameter &  Fiducial& Forecast & Max contamination & Min contamination \\
+\hline
+{\boldmath$\Omega_m       $} & 0.295 & $0.293^{+0.078}_{-0.072}   $ & $0.295^{+0.090}_{-0.081}$ & $0.293^{+0.082}_{-0.074}  $\\
+
+{\boldmath$h_0              $} & 0.6681 & $0.76^{+0.14}_{-0.15}   $ & $0.75^{+0.14}_{-0.15}   $ & $0.75^{+0.14}_{-0.15}$\\
+
+{\boldmath$\Omega_b       $} & 0.0468 & $0.048^{+0.019}_{-0.017}  $ & $0.048^{+0.019}_{-0.017} $ & $0.048^{+0.019}_{-0.017}$\\
+
+{\boldmath$n_s            $} & 0.9676 & $0.983^{+0.082}_{-0.092}  $ & $0.989^{+0.079}_{-0.092} $ & $0.987^{+0.081}_{-0.093}  $\\
+
+{\boldmath$A_s            $} & $2.26\cdot 10^{-9}$ & $\left(\,2.4^{+1.1}_{-1.0}\,\right)\cdot 10^{-9}$ & $\left(\,2.4^{+1.2}_{-1.1}\,\right)\cdot 10^{-9}$ & $\left(\,2.4^{+1.1}_{-1.0}\,\right)\cdot 10^{-9}$\\
+
+{\boldmath{$\Omega_{\nu}h^{2}$}} & 0.0006155 & $0.0048^{+0.0044}_{-0.0041}$ & $0.0048^{+0.0044}_{-0.0040}$ & $0.0048^{+0.0045}_{-0.0040}$ \\
+
+{\boldmath$\sigma_{8}     $} & Not defined & $0.83^{+0.11}_{-0.10} $ & $0.83^{+0.11}_{-0.12}$ & $0.83^{+0.11}_{-0.10} $\\
+\hline
+\end{tabular}
+\caption{Comparison of cosmological parameters estimation for and different forecast.}
+ \label{table:finalparas}
+\end{table}
+$$
