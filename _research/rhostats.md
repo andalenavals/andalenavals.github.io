@@ -36,7 +36,8 @@ In the Y3 analysis of [DES](https://www.darkenergysurvey.org/)  the effects of P
 * The addive bias could be treated similarly, however his contribution can be neglected if we observe the PSF additive contamination in the two point correlation function to be subdominant.
 
 ## Rho statistics
-We can write the additive systematics in the ellipticity estimator as 
+We can write the additive systematics in the ellipticity estimator as
+
 $$
 \begin{equation}
 e^{\textrm{gal}}=\gamma+\delta e^{\textrm{sys}}+\delta e^{\textrm{noise}},
@@ -52,7 +53,8 @@ $$
 \label{eq:new}
 \end{equation}
 $$
-is proposed where field with the $*$ symbol are measurements of the reserved stars not used during the PSF modelling, and the $p$ label are the PSF values interpolated at the position of those stars. The previous parametrization is justified when doing gaussian propagation of errors using unweighted moments. The first term correspond to the PSF leakage, second one is the error associated to PSF shape residuals $q=e^{\textrm{*}}-e^{p}$, and the third one to PSF size residuals $w = e^{*}\frac{T^{\textrm{*}}-T^{p}}{T^{\textrm{*}}}$, using that notation \cref{eq:new} is
+
+is proposed where field with the * symbol are measurements of the reserved stars not used during the PSF modelling, and the $p$ label are the PSF values interpolated at the position of those stars. The previous parametrization is justified when doing gaussian propagation of errors using unweighted moments. The first term correspond to the PSF leakage, second one is the error associated to PSF shape residuals $q=e^{\textrm{*}}-e^{p}$, and the third one to PSF size residuals $w = e^{*}\frac{T^{\textrm{*}}-T^{p}}{T^{\textrm{*}}}$, using that notation $\cref{eq:new}$ is
 
 $$
 \begin{equation}
