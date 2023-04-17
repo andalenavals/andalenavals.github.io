@@ -128,11 +128,11 @@ $$
 
 the data vector. Both of which correspond to the concatenation of Tau and Rho statistics, for the +/- correlaction functions. A set of parameters $\alpha$, $\beta$, and $\eta$ needs to be found for each tomographic bin, since the galaxy properties distribution are different and might correlate differently with PSF residuals. However, this does not mean these parameters are scale dependent.
 
-<br/><img src='/images/research/rhostats/rho1p_all_rsrs.png' width="400">
-<br/><img src='/images/research/rhostats/rho2p_all_rsrs.png' width="400">
-<br/><img src='/images/research/rhostats/tau0_bestfit_abe_flask.png' width="400">
-<br/><img src='/images/research/rhostats/tau1_bestfit_abe_flask.png' width="400">
-<br/><img src='/images/research/rhostats/tau2_bestfit_abe_flask.png' width="400">
+The figure below show one particular set of Rho statistics.
+<br/><img src='/images/research/rhostats/rho1p_all_rsrs.png' width="500">
+
+The figure below show one particular set of Tau statistics, for all the tomograpic bins in DES Y3, and in as continues line the best fit model.
+<br/><img src='/images/research/rhostats/tau2_bestfit_abe_flask.png' width="500">
 
 
 ## PSF error propagation in cosmological estimates
