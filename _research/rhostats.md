@@ -38,12 +38,12 @@ In the Y3 analysis of [DES](https://www.darkenergysurvey.org/)  the effects of P
 ## Rho statistics
 We can write the additive systematics in the ellipticity estimator as $$
 \begin{equation}
-e^{\textrm{gal}}=\gamma+\delta e^{\textrm{sys}}+\delta e^{\textrm{noise}},
+e^{\textrm{gal}}=\gamma+\delta e^{\textrm{sys}}+\delta e^{\textrm{noise}}.
 \label{eq:observed}
 \end{equation}
 $$
-
 To get the PSF associated part of $\delta e^{\textrm{sys}}$, the parametrization
+
 $$
 \begin{equation}
 \delta e^{\textrm{sys}}_{\textrm{PSF}}=\alpha e^{\textrm{p}}+\beta\left(e^{\textrm{*}}-e^{p}\right)+\eta\left(e^{*}\frac{T^{\textrm{*}}-T^{p}}{T^{\textrm{*}}}\right),
@@ -51,7 +51,7 @@ $$
 \end{equation}
 $$
 
-is proposed where field with the * symbol are measurements of the reserved stars not used during the PSF modelling, and the $p$ label are the PSF values interpolated at the position of those stars. The previous parametrization is justified when doing gaussian propagation of errors using unweighted moments. The first term correspond to the PSF leakage, second one is the error associated to PSF shape residuals $$q=e^{*}-e^{\textrm{p}}$$, and the third one to PSF size residuals $w = e^{*}\frac{T^{\textrm{*}}-T^{p}}{T^{\textrm{*}}}$, using that notation we can write
+is proposed where field with the * symbol are measurements of the reserved stars not used during the PSF modelling, and the $p$ label are the PSF values interpolated at the position of those stars. The previous parametrization is justified when doing gaussian propagation of errors using unweighted moments. The first term correspond to the PSF leakage, second one is the error associated to PSF shape residuals $$q=e^{*}-e^{\textrm{p}}$$, and the third one to PSF size residuals $$w = e^{*}\frac{T^{\textrm{*}}-T^{p}}{T^{\textrm{*}}}$$, using that notation we can write
 
 $$
 \begin{equation}
@@ -60,7 +60,7 @@ $$
 \end{equation}
 $$
 
-Now we want to determine, the parameters $\alpha$, $\beta$ and $\eta$ fitting a model of TPCF involving correlation star-galaxy. The TPCF of each PSF systematic field with the galaxy shape estimator is
+Now we want to determine, the parameters $\alpha$, $\beta$ and $\eta$ fitting a model involving star-galaxy correlation. The TPCF of each PSF systematic field with the galaxy shape estimator is
 
 $$
 \begin{align}
@@ -70,14 +70,9 @@ $$
 \end{align}
 $$
 
-$$
-\begin{equation}
-\boxed{
-    x'=x-\left\langle x \right\rangle,
-    }
-\end{equation}
-$$
-
+To symply calculation we can work with mean subtracted fields, therefore we intoduced the primed notation, $$x'=x-\left\langle x \right\rangle$$. Defining the Tau statistics as $$\begin{equation}
+    \tau_{0}'=\left\langle e^{\textrm{gal}'}e^{p'}\right\rangle \quad , \quad \tau_{2}'=\left\langle e^{\textrm{gal}'}q'\right\rangle \quad , \quad \tau_{5}'= \left\langle e^{\textrm{gal}'}w'\right\rangle 
+\end{equation}$$, and introducing the stars correlation, $\textbf{Rho-statics}$,
 $$
 \begin{equation}
 \boxed{
@@ -90,14 +85,7 @@ $$
 \end{equation}
 $$
 
-$$
-\begin{equation}
-\boxed{
-    \tau_{0}'=\left\langle e^{\textrm{gal}'}e^{p'}\right\rangle \quad , \quad \tau_{2}'=\left\langle e^{\textrm{gal}'}q'\right\rangle \quad , \quad \tau_{5}'= \left\langle e^{\textrm{gal}'}w'\right\rangle 
-}
-\label{eq:tautats}
-\end{equation}
-$$
+our fitting problem is simplyfied to:
 
 $$
 \begin{align}
