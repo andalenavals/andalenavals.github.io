@@ -100,7 +100,7 @@ $$
 \end{align}
 $$
 
-Where we can find the parameters by sampling the posterior of the likelihood $$ \begin{equation} \mathscr{L}=|C|^{-1/2} \exp\left(- \frac{ \textbf{d}^T\textbf{C}^{-1}\textbf{d}}{2} \right) \end{equation} $$, where $\textbf{d}=\xi_{p}-\hat{\xi}$, and
+Where we can find the parameters by sampling the posterior of the likelihood $$ \begin{equation} \mathscr{L}=|C|^{-1/2} \exp\left(- \frac{ \textbf{d}^T\textbf{C}^{-1}\textbf{d}}{2} \right) \end{equation} $$, where $$\textbf{d}=\xi_{p}-\hat{\xi}$$, and
 
 \begin{equation}
 \begin{aligned}
@@ -130,9 +130,10 @@ Once we have an estimate for the $\alpha$, $\beta$, and $\eta$, we can study the
 
 
 
+
 $$
 \begin{equation}
-\xi_{+}^{ij(\textrm{obs})}' = \left\langle e^{i'}_{\textrm{obs}}e^{j'}_{\textrm{obs}} \right\rangle = \left\langle ( \gamma^{i'} + \delta e^{i'}_{\textrm{sys}}) ( \gamma^{j'} + \delta e^{j'}_{\textrm{sys}} )\right\rangle 
+\xi_{+}^{ij'(\textrm{obs})} = \left\langle e^{i'}_{\textrm{obs}}e^{j'}_{\textrm{obs}} \right\rangle = \left\langle ( \gamma^{i'} + \delta e^{i'}_{\textrm{sys}}) ( \gamma^{j'} + \delta e^{j'}_{\textrm{sys}} )\right\rangle 
 \end{equation}
 $$
 
