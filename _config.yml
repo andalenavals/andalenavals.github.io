@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Andres Alejandro Navarro Alsina"
 title_separator          : "-"
 name                     : &name "Andres Navarro"
-description              : &description "I am a PhD researcher developing state of the art methods for accurate weak gravitational lensing analysis. I was involved in the Y3 results of the Dark Energy Survey, my main contributions were in the characterization of potential systematic errors due to PSF missestimation and the consequences of those in cosmological estimates.  Currently, I am working on Neural Network approachs for the shear estimation problem."
+description              : &description ""
 url                      : https://andalenavals.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "andalenavals/andalenavals.github.io"
@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Andres Navarro"
-  avatar           : "/assets/images/profile.png"
+  avatar           : "profile.png"
   bio              : "PhD researcher at University of Bonn, Exploiting ML techniques for Astrophysics research "
   location         : "Bonn, Germany"
   employer         :
