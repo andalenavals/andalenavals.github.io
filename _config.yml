@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Andres Navarro"
-  avatar           : "profile.png"
+  avatar           : "/assets/images/profile.png"
   bio              : "PhD researcher at University of Bonn, Exploiting ML techniques for Astrophysics research "
   location         : "Bonn, Germany"
   employer         :

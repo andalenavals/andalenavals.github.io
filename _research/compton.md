@@ -1,6 +1,6 @@
 ---
 title: "Compton Camera"
-excerpt: "<br/><img src='/images/research/g4.png'>"
+excerpt: "<br/><img src='/assets/images/research/g4.png'>"
 collection: research
 author_profile: false
 date: 2017-01-01
@@ -12,7 +12,7 @@ Device working principle
 ======
 The GFNUN Compton Camera consists of an array of two detectors set up in a coincidence configuration. The backscattering detector is shaped like a hollow cylinder, with a lead shielding containing a ^22^Na radioactive source located within the hole. This detector is made of a CsI crystal coupled to two photomultipliers. The position detector, on the other hand, is a CsI crystal with a special photomultiplier that allows for the current generated to be divided into a 64x64 pixel grid. The working principle of the camera is the following:
 
-<br/><img src='/images/research/compton/setup.png'>
+<br/><img src='/assets/images/research/compton/setup.png'>
 
 1. A beta decay occurs inside the source, producing an electron-positron pair that annihilates and creates a pair of 511 keV photons. These photons travel in opposite directions.
 
@@ -27,12 +27,12 @@ The GFNUN Compton Camera consists of an array of two detectors set up in a coinc
 The single backscattering equation
 ======
 A toy model can help provide an intuitive understanding of how the number of backscattered photons is influenced by the material and energy of the incident photon. This model assumes a uniform single-element material and perfectly collimated photons. Under these circumstances, the number of backscattered photons can be expressed as follows:
-<br/><img src='/images/research/compton/eq1.png' width="500">
+<br/><img src='/assets/images/research/compton/eq1.png' width="500">
 
 where $I_{0}$ is the incident intensity of photons, $B(E_{\gamma},x)$ is the buildup term, $\mu$ is the attenuation coefficient for the incident photons, $\mu(\theta)$ is the attenuation coefficient for the single backscattered photons (which, in general, depends on the energy), Z is the atomic number/effective number of the material, $n(x)$ is the number density (which depends on the molar density of the material), $d$ is the thickness of the dispersing material, and $\frac{\sigma_{k}}{d\Omega}$ is the Klein-Nishina differential cross section.
 
 Assuming there are not multiple dispersion and the source is perfeclty collimated, then $B(E_{\gamma},x)=1$, and if the material is homegeneous the number density is independent on the position, we can summarize the equation for the backscattered photons as
-<br/><img src='/images/research/compton/eq2.png' width="500">
+<br/><img src='/assets/images/research/compton/eq2.png' width="500">
 
 
 GEANT4 simulation
@@ -41,10 +41,10 @@ To improve the device design and enhance the quality of the images produced, we 
 
 We tested various materials for the detectors, as well as different geometrical configurations, and a pure beta decay source. By running simulations with different parameters, we can evaluate how they affect the image quality and optimize the design of the device for improved performance.
 
-<br/><img src='/images/research/compton/simcam.png' width="800" height="400" >
+<br/><img src='/assets/images/research/compton/simcam.png' width="800" height="400" >
 
 Although the backscattering detector is used as time trigger, we can obtain from the simulation the energy spectra and compare it with the observed in the laboratory one.
-<br/><img src='/images/research/compton/cada1000.gif' width="500">
+<br/><img src='/assets/images/research/compton/cada1000.gif' width="500">
 
 
 
@@ -55,11 +55,11 @@ Corrosion and erosion can cause pipes in pipelines (such as those used for oil, 
 
 The image below shows the simulation and the experimental setup of the imaging system. Notice the defect of the tube is located in the innerside, and the camera is located in the opposite site.
 
-<br/><img src='/images/research/compton/case1setup.png' width="400">
+<br/><img src='/assets/images/research/compton/case1setup.png' width="400">
 
 Comparison of images of the defect inside a pipe, when using a visible camera we changed the direction where the camera is pointing, if the visible camera is located in the same direction than the gamma camera then the defect would not be observed. Recall that the Compton camera image is obtained using photons that were backsattered (this is not a transmition technique)
 
-<br/><img src='/images/research/compton/results_case1.png' width="600">
+<br/><img src='/assets/images/research/compton/results_case1.png' width="600">
 
 The experimental centering of the sample was innacurate that is why the circular region representing the defect is towards the bottom of the image.
 
@@ -67,8 +67,8 @@ Case study II: localizing objects inside/behind a wall
 ======
 Another example where transmitted photons are not accessible and backscattering techniques are required is in the imaging of buried objects (such as landmines) or objects hidden behind thick surfaces like walls. In this study, we will investigate the capabilities of the Compton Camera to image one object (pliers) behind ceramics, and gradually increase the ceramic thickness until the object can no longer be distinguished. The figure below depicts the experimental setup, as well as the simulation geometry.
 
-<br/><img src='/images/research/compton/case2setup.png' width="600">
+<br/><img src='/assets/images/research/compton/case2setup.png' width="600">
 
 Below is presented the images obtained with the Compton camera and the simulated version of the same setup. It was obseved that for the current version of the camera we have a maximum depth of around 5 cm. However this is highly dependent on the involved materials.
 
-<br/><img src='/images/research/compton/results_case2.png' width="600">
+<br/><img src='/assets/images/research/compton/results_case2.png' width="600">

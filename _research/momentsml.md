@@ -1,6 +1,6 @@
 ---
 title: "MomentsML"
-excerpt: "<br/><img src='/images/research/euclid_thumbnail.jpg'>"
+excerpt: "<br/><img src='/assets/images/research/euclid_thumbnail.jpg'>"
 collection: research
 author_profile: false
 date: 2023-03-01

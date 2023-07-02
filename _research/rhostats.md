@@ -1,6 +1,6 @@
 ---
 title: "Propagation of PSF errors in cosmological estimates"
-excerpt: "<br/><img src='/images/research/DES_thumbnail.jpg'>"
+excerpt: "<br/><img src='/assets/images/research/DES_thumbnail.jpg'>"
 collection: research
 author_profile: false
 date: 2022-03-01
@@ -23,12 +23,12 @@ where the mutiplicative bias $\mu_{i}$ and the additive one $c_{i}$ are obtained
 
 ## PSF size errors
 When changing only the size of the PSF and keeping it circular, we can observe a multiplicative bias contribution. As ilustrated in the animation below wehre as sheare estimator HSM is used.
-<br/><img src='/images/research/rhostats/psf_size.gif' width="800">
+<br/><img src='/assets/images/research/rhostats/psf_size.gif' width="800">
 
 ## PSF anisotropy errors
 When changing the ellipticity of the PSF, we can observe an additive contribution to the bias, when there is change in the first component of the shear PSF ellipticity, and a subtle multiplicative bias when the PSF is aligned with the galaxy ellipticity as ilustrated below
 
-<br/><img src='/images/research/rhostats/psf_anisotropy.gif' width="800">
+<br/><img src='/assets/images/research/rhostats/psf_anisotropy.gif' width="800">
 
 In the Y3 analysis of [DES](https://www.darkenergysurvey.org/)  the effects of PSF biases in comology goes like follows:
 
@@ -130,11 +130,11 @@ the data vector. Both of which correspond to the concatenation of Tau and Rho st
 
 The figure below show one particular set of Rho statistics.
 
-<br/><img src='/images/research/rhostats/rho1p_all_rsrs.png' width="500">
+<br/><img src='/assets/images/research/rhostats/rho1p_all_rsrs.png' width="500">
 
 The figure below show one particular set of Tau statistics, for all the tomograpic bins in DES Y3, and in as continues line the best fit model.
 
-<br/><img src='/images/research/rhostats/tau2_bestfit_abe_flask.png' width="500">
+<br/><img src='/assets/images/research/rhostats/tau2_bestfit_abe_flask.png' width="500">
 
 
 ## PSF error propagation in cosmological estimates
@@ -175,12 +175,12 @@ $$
 We now have the shear 2PCF contamination due to PSF additive systematic biases $\delta \xi$, as a function of Rho statistics and the best-fitted $\alpha$, $\beta$, and $\eta$. The figure below shows the comparison of the PSF contamination and the fiducial cosmology data vector. Notice that the contamination is subdominant, almost two orders of magnitude below the fiducial values.
 
 
-<br/><img src='/images/research/rhostats/xicont_and_xipfid.png' width="600">
+<br/><img src='/assets/images/research/rhostats/xicont_and_xipfid.png' width="600">
 
 By using the $+1\sigma$ values of the PSF contamination, we can create a test data vector by adding and subtracting it from the fiducial cosmology. With this contaminated data vector, we can perform a likelihood analysis for final cosmological estimates and confirm that this effect is indeed subdominant. The figure below shows the contour plots obtained.
 
-<br/><img src='/images/research/rhostats/finalcomparison.png' width="600">
+<br/><img src='/assets/images/research/rhostats/finalcomparison.png' width="600">
 
-<br/><img src='/images/research/rhostats/cosmo_table.png' width="600">
+<br/><img src='/assets/images/research/rhostats/cosmo_table.png' width="600">
 
 
