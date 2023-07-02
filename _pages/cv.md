@@ -8,4 +8,4 @@ redirect_from:
 ---
 {% include base_path %}
 
-You can find my CV [here](https://andalenavals.github.io/files/academic_cv.pdf)
+You can find my CV [here](https://andalenavals.github.io/assets/files/academic_cv.pdf)
