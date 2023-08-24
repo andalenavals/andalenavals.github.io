@@ -6,7 +6,7 @@ author_profile: false
 layouts_gallery:
   - url: ../assets/images/gallery/me.jpg
 	image_path: ../assets/images/gallery/me.jpg
-    alt: ""
+    alt: "hola"
 ---
 {% include base_path %}
 
