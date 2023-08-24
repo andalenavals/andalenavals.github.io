@@ -3,7 +3,7 @@ layout: archive
 title: "Vorschung"
 permalink: /vorschung/
 author_profile: false
-layouts_gal:
+layouts_gallery:
   - url: ../assets/images/gallery/OWLnebula.jpg
     image_path: ../assets/images/gallery/OWLnebula.jpg
     alt: "Owl Nebula. 2023-01-14"
@@ -16,4 +16,4 @@ layouts_gal:
 ---
 {% include base_path %}
 
-{% include gallery id="layouts_gal"  caption="" %}
+{% include gallery id="layouts_gallery"  caption="" %}
