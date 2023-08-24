@@ -12,9 +12,10 @@
   /* sticky footer fix start */
   position: absolute;
   bottom: 0em;
-  height: auto;
+  /* height: auto; */
+  height: 3em;
   /* sticky footer fix end */
-  margin-top: 3em;
+  margin-top: 0em;
   color: mix(#fff, $gray, 25%);
   -webkit-animation: intro 0.3s both;
           animation: intro 0.3s both;
