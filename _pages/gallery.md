@@ -8,6 +8,10 @@ layouts_gallery:
     image_path: ../assets/images/gallery/OWLnebula.jpg
     alt: "Owl Nebula. 2023-01-14"
 	title: "Messier 97"
+  - url: ../assets/images/gallery/doublerainbow.jpg
+    image_path: ../assets/images/gallery/doublerainbow.jpg
+    alt: ""
+	title: ""
   - url: ../assets/images/gallery/me.jpg
 	image_path: ../assets/images/gallery/me.jpg
     alt: ""
@@ -15,4 +19,5 @@ layouts_gallery:
 ---
 {% include base_path %}
 
-{% include gallery id="layouts_gallery" caption="" %}
+##{% include gallery id="layouts_gallery" layout="half"  caption="" %}
+{% include gallery id="layouts_gallery" layout="half"  caption="" %}
