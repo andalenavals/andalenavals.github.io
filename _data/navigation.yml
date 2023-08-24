@@ -23,6 +23,9 @@ main:
 
   - title: "Packages"
     url: /packages/
+
+  - title: "Vorschung"
+    url: /vorschung/
     
   #- title:"Personal"
   #  url: /personal/
