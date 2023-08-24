@@ -4,8 +4,8 @@ title: "Gallery"
 permalink: /gallery/
 author_profile: false
 layouts_gallery:
-  - url: ../assets/images/gallery/me.jpg
-	image_path: ../assets/images/gallery/me.jpg
+  - url: ../assets/images/gallery/ME.jpg
+	image_path: ../assets/images/gallery/ME.jpg
     alt: "hola"
 ---
 {% include base_path %}
