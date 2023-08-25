@@ -4,19 +4,22 @@ layout: compress
 
 {% include base_path %}
 
-<!DOCTYPE html>
-<html lang="{{ site.lang }}">
+<!doctype html>
+<html lang="{{ site.locale | slice: 0,2 }}" class="no-js">
 
   <!-- Head -->
   <head>
   {%- if page.redirect -%}
     <meta http-equiv="refresh" content="3; url={{ site.baseurl }}/" />
   {%- endif -%}
-  {% include head.html %}
+    {% include head.html %}
+    {% include head/custom.html %}
   </head>
 
   <!-- Body -->
-  <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
+  <body>
+    {% include browser-upgrade.html %}
+    {% include masthead.html %}
 
     <!-- Header -->
     {%- include header.html %}
