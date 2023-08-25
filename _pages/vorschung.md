@@ -10,6 +10,7 @@ gallery:
   - url: ../assets/images/gallery/OWLnebula.jpg
     image_path: ../assets/images/gallery/OWLnebula.jpg
     alt: "Owl Nebula. 2023-01-14"
+toc: true
 ---
 {% include base_path %}
 
