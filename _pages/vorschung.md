@@ -4,7 +4,7 @@ title: "Vorschung"
 permalink: /vorschung/
 author_profile: false
 gallery:
-  - url: ../research/compton.md
+  - url: ../research/compton
     image_path: ../assets/images/gallery/OWLnebula.jpg
     alt: "Owl Nebula. 2023-01-14"
   - url: ../assets/images/gallery/OWLnebula.jpg
