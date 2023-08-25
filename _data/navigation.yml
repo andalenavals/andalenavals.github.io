@@ -18,14 +18,14 @@ main:
   - title: "CV"
     url: /cv/
 
-  #- title: "Gallery"
-  #  url: /gallery/
+  - title: "Gallery"
+    url: /gallery/
 
   - title: "Packages"
     url: /packages/
 
-  #- title: "Vorschung"
-  #  url: /vorschung/
+  - title: "Vorschung"
+    url: /vorschung/
     
   #- title:"Personal"
   #  url: /personal/
