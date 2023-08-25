@@ -17,9 +17,9 @@ nav_order: 2
 display_categories: [work, fun]
 horizontal: false
 ---
-{% include base_path %}
+<!-- {% include base_path %} -->
 
-{% include gallery id="gallery"  caption="CORROPOPOLA" %}
+<!-- {% include gallery id="gallery"  caption="CORROPOPOLA" %} -->
 
 <div class="projects">
 {%- if site.enable_project_categories and page.display_categories %}
