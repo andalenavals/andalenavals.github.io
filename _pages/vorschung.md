@@ -1,5 +1,5 @@
 ---
-layout: archive
+layout: splash
 title: "Vorschung"
 permalink: /vorschung/
 author_profile: false
@@ -16,7 +16,7 @@ toc: true
 
 {% include gallery id="gallery"  caption="test" %}
 
-
+<div class="container">
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
@@ -38,4 +38,5 @@ toc: true
 </div>
 <div class="caption">
     This image can also have a caption. It's like magic.
+</div>
 </div>
