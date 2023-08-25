@@ -1,5 +1,5 @@
 ---
-layout: compress
+layout: default
 title: "Vorschung"
 permalink: /vorschung/
 author_profile: false
