@@ -11,6 +11,11 @@ gallery:
     image_path: ../assets/images/gallery/OWLnebula.jpg
     alt: "Owl Nebula. 2023-01-14"
 toc: true
+description: A growing collection of your cool projects.
+nav: true
+nav_order: 2
+display_categories: [work, fun]
+horizontal: false
 ---
 {% include base_path %}
 
