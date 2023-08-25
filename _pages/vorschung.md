@@ -19,7 +19,7 @@ horizontal: false
 ---
 {% include base_path %}
 
-{% include gallery id="gallery"  caption="POPOLA" %}
+{% include gallery id="gallery"  caption="CORROPOPOLA" %}
 
 <div class="projects">
 {%- if site.enable_project_categories and page.display_categories %}
