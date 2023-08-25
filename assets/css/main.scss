@@ -10,9 +10,14 @@
  *
 */
 
+@charset "utf-8";
+
+// Dimensions
+$max-content-width: {{ site.max_width }};
+
 @import "vendor/breakpoint/breakpoint"; // media query mixins
 @import "variables";
-@import "themes";
+//@import "themes";
 //@import "layout";
 @import "distill";
 @import "mixins";
