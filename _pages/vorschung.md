@@ -1,5 +1,5 @@
 ---
-layout: archive-taxonomy
+layout: archive
 title: "Vorschung"
 permalink: /vorschung/
 author_profile: false
