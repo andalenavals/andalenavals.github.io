@@ -10,7 +10,7 @@ layouts_gallery:
   - url: ../assets/images/gallery/doublerainbow.jpg
     image_path: ../assets/images/gallery/doublerainbow.jpg
     alt: "tu"
-
+toc: true
 ---
 {% include base_path %}
 
