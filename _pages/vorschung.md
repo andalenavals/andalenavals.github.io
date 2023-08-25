@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: single
 title: "Vorschung"
 permalink: /vorschung/
 author_profile: false
