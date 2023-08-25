@@ -1,5 +1,5 @@
 ---
-layout: talk
+layout: archive
 title: "Gallery"
 permalink: /gallery/
 author_profile: false
