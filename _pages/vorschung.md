@@ -1,5 +1,5 @@
 ---
-layout: talk
+layout: archive-taxonomy
 title: "Vorschung"
 permalink: /vorschung/
 author_profile: false
