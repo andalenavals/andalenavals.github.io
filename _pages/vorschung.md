@@ -1,5 +1,5 @@
 ---
-layout: splash
+layout: page
 title: "Vorschung"
 permalink: /vorschung/
 author_profile: false
@@ -19,7 +19,7 @@ horizontal: false
 ---
 {% include base_path %}
 
-{% include gallery id="gallery"  caption="HOLA" %}
+{% include gallery id="gallery"  caption="POLA" %}
 
 <div class="projects">
 {%- if site.enable_project_categories and page.display_categories %}
