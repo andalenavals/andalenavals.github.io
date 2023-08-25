@@ -1,5 +1,5 @@
 ---
-layout: splash
+layout: talk
 title: "Vorschung"
 permalink: /vorschung/
 author_profile: false
