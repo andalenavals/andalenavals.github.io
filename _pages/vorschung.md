@@ -14,7 +14,7 @@ toc: true
 ---
 {% include base_path %}
 
-{% include gallery id="gallery"  caption="test" %}
+{% include gallery id="gallery"  caption="" %}
 
 <div class="container">
 <div class="row">
