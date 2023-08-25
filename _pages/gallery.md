@@ -10,6 +10,9 @@ layouts_gallery:
   - url: ../assets/images/gallery/doublerainbow.jpg
     image_path: ../assets/images/gallery/doublerainbow.jpg
     alt: "tu"
+  - url: ../assets/images/gallery/ME.jpg
+    image_path: ../assets/images/gallery/ME.jpg
+    alt: "ella"
 toc: true
 ---
 {% include base_path %}
