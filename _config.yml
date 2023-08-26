@@ -441,3 +441,13 @@ plugins:
   - jekyll-toc
   - jekyll-twitter-plugin
   - jemoji
+
+
+# -----------------------------------------------------------------------------
+# Jekyll Minifier
+# -----------------------------------------------------------------------------
+
+jekyll-minifier:
+  exclude: ['robots.txt']
+  uglifier_args:
+    harmony: true
