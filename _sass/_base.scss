@@ -81,6 +81,37 @@ p, pre, blockquote, ul, ol, dl, figure, table, fieldset {
   widows: 3;
 }
 
+
+table {
+  td,
+  th {
+    font-size: 1rem;
+  }
+
+  th {
+    font-weight: bold;
+  }
+}
+
+a,
+table.table a {
+  color: var(--global-theme-color);
+
+  &:hover {
+    color: var(--global-theme-color);
+    text-decoration: underline;
+  }
+
+  &:hover:after :not(.nav-item.dropdown) {
+    width: 100%;
+  }
+}
+
+.table-dark {
+  background-color: transparent;
+}
+
+
 /* abbreviations */
 
 abbr[title],
@@ -160,9 +191,6 @@ hr {
   border-top: 1px solid $border-color;
 }
 
-hr {
-  border-top: 1px solid var(--global-divider-color);
-}
 
 /* lists */
 
