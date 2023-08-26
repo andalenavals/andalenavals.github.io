@@ -457,3 +457,10 @@ plugins:
   - jekyll-toc
   - jekyll-twitter-plugin
   - jemoji
+
+# Sitemap settings
+defaults:
+  - scope:
+      path: "assets"
+    values:
+      sitemap: false
