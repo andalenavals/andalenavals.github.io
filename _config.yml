@@ -323,6 +323,22 @@ compress_html:
     envs: development
 
 
+# -----------------------------------------------------------------------------
+#  FROM AL-FOLIO
+# -----------------------------------------------------------------------------
+
+
+rss_icon: true
 navbar_fixed: true
 footer_fixed: true
 max_width: 800px
+
+# -----------------------------------------------------------------------------
+# Analytics and search engine verification
+# -----------------------------------------------------------------------------
+
+google_analytics:  # your Google Analytics measurement ID (format: G-XXXXXXXXXX)
+panelbear_analytics:  # panelbear analytics site ID (format: XXXXXXXXX)
+
+google_site_verification:  # your google-site-verification ID (Google Search Console)
+bing_site_verification:  # out your bing-site-verification ID (Bing Webmaster)
