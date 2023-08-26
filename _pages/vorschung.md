@@ -14,7 +14,8 @@ gallery:
     image_path: ../assets/images/research/g4.png
     alt: "Owl Nebula. 2023-01-14"
 toc: true
-horizontal: true
+horizontal: false
+display_categories: [work, fun]
 ---
 {% include base_path %} 
 
