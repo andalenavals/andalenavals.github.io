@@ -322,4 +322,7 @@ compress_html:
   ignore:
     envs: development
 
+
+navbar_fixed: true
+footer_fixed: true
 max_width: 800px
