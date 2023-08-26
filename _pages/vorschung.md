@@ -15,7 +15,6 @@ gallery:
     alt: "Owl Nebula. 2023-01-14"
 toc: true
 horizontal: false
-display_categories: [work, fun]
 ---
 {% include base_path %} 
 
