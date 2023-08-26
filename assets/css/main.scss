@@ -13,7 +13,7 @@
 @charset "utf-8";
 
 // Dimensions
-$max-content-width: 500px; //{{ site.max_width }};
+$max-content-width: {{ site.max_width }};
 
 @import "vendor/breakpoint/breakpoint"; // media query mixins
 @import "variables";
