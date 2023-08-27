@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: "Vorschung"
 permalink: /vorschung/
 author_profile: false
@@ -46,5 +46,5 @@ horizontal: false
   {%- endif -%}
   {% endfor %}
 
-{%- endif -%}
+
 </div>
