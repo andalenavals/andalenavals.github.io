@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: splash
 title: "Vorschung"
 permalink: /vorschung/
 author_profile: false
