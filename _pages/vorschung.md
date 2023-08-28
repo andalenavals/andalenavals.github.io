@@ -1,5 +1,5 @@
 ---
-layout: archive
+layout: page
 title: "Vorschung"
 permalink: /vorschung/
 author_profile: false
