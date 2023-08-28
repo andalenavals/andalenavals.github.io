@@ -22,7 +22,7 @@ horizontal: false
 
 <!-- pages/projects.md -->
 <div class="projects">
- <!-- Display categorized projects -->
+ <!-- 
   {%- for category in page.display_categories %}
   <h2 class="category">{{ category }}</h2>
   {%- assign categorized_projects = site.projects | where: "category", category -%}
@@ -33,14 +33,13 @@ horizontal: false
     {%- endfor %}
   </div>
   {% endfor %}
+ -->
 
-
-<!--
   {%- assign sorted_projects = site.projects | sort: "importance" -%}
   <div class="grid">
     {%- for project in sorted_projects -%}
       {% include projects.html %}
     {%- endfor %}
   </div>
--->
+
 </div>
