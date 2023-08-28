@@ -3,6 +3,8 @@ layout: page
 title: "Propagation of PSF errors in cosmological estimates"
 description: PSF diagnostic correlation function and the propagation of PSF errors in final cosmological estimates for Y3 analysis of the Dark Energy Survey.
 img: assets/images/research/DES_thumbnail.jpg
+importance: 2
+category: work
 collection: research
 author_profile: false
 date: 2022-03-01
