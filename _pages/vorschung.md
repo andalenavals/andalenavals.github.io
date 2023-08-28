@@ -1,5 +1,5 @@
 ---
-layout: default2
+layout: default
 title: "Vorschung"
 permalink: /vorschung/
 author_profile: false
@@ -13,7 +13,7 @@ gallery:
   - url: ../assets/images/research/g4.png
     image_path: ../assets/images/research/g4.png
     alt: "Owl Nebula. 2023-01-14"
-toc: true
+toc: false
 horizontal: false
 ---
 {% include base_path %} 
