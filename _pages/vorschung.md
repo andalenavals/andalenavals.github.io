@@ -3,10 +3,9 @@ layout: page
 title: "Vorschung"
 permalink: /vorschung/
 author_profile: false
-toc: false
+toc: true
 nav: true
 nav_order: 2
-display_categories: [work, fun]
 horizontal: false
 ---
 {% include base_path %} 
