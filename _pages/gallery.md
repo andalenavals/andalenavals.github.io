@@ -14,13 +14,16 @@ layouts_gallery:
     image_path: ../assets/images/gallery/ME.jpg
     alt: "ella"
   - url: ../assets/images/gallery/AIFA_winter.jpg
-    image_path: ../assets/images/gallery/AIFA_winter.jpg
+    image_path: ../assets/images/gallery/AIFA_winter.jpeg
     alt: "ella"
   - url: ../assets/images/gallery/moon.jpg
     image_path: ../assets/images/gallery/moon.jpg
     alt: "ella"
   - url: ../assets/images/gallery/Dome_winter.jpg
     image_path: ../assets/images/gallery/Dome_winter.jpg
+    alt: "ella"
+  - url: ../assets/images/gallery/botanic_garten.jpg
+    image_path: ../assets/images/gallery/botanic_garten.jpg
     alt: "ella"
 toc: true
 ---
