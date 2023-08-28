@@ -3,7 +3,7 @@ layout: page
 title: "Compton Camera"
 description: Simulation using GEANT4 and comparison with experiments of Backscattering gamma camera
 img: assets/images/research/g4.png
-importance: 7
+importance: 3
 category: work
 collection: research
 author_profile: false

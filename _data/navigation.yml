@@ -4,10 +4,13 @@ main:
     url: /publications/ 
 
   - title: "Teaching"
-    url: /teaching/    
+    url: /teaching/
+
+  - title: "Research"	
+    url: /vorschung/
     
-  - title: "Research"
-    url: /research/
+  #- title: "Research"
+  #  url: /research/
 
   #- title: "Projects"
   #  url: /projects/
@@ -24,9 +27,6 @@ main:
   - title: "Packages"
     url: /packages/
 
-  - title: "Research"
-    url: /vorschung/
-    
   #- title:"Personal"
   #  url: /personal/
     

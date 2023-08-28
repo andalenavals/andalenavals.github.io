@@ -6,7 +6,7 @@ author_profile: false
 toc: true
 nav: true
 nav_order: 2
-horizontal: true
+horizontal: false
 ---
 {% include base_path %} 
 

@@ -1,6 +1,10 @@
 ---
+layout: page
 title: "MomentsML"
-excerpt: "<br/><img src='/assets/images/research/euclid_thumbnail.jpg'>"
+description: Machine Learning shallow network accurate prediction of shear estimators for Euclid Satellite
+img: assets/images/research/euclid_thumbnail.jpg
+importance: 1
+category: work
 collection: research
 author_profile: false
 date: 2023-03-01
