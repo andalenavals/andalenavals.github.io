@@ -1,12 +1,12 @@
 ---
 layout: page
-title: "Vorschung"
+title: "Research"
 permalink: /vorschung/
 author_profile: false
 toc: true
 nav: true
 nav_order: 2
-horizontal: false
+horizontal: true
 ---
 {% include base_path %} 
 
