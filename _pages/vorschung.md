@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default2
 title: "Vorschung"
 permalink: /vorschung/
 author_profile: false
