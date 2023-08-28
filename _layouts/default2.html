@@ -16,26 +16,52 @@ layout: compress
   <!-- Body -->
   <body>
 
-    <!--
     {% include browser-upgrade.html %}
     {% include masthead.html %}
-    -->
 
-    <!-- Header 
+    <!-- Header -->
     {% include header.html %}
-    -->
-   
+
+    <!-- Content -->
+    <div class="container mt-5">
+     <!-- {% if page.toc and page.toc.sidebar %}
+      {% if page.toc.sidebar == "right" %}-->
+        <div class="row">
+          <!-- main content area -->
+          <div class="col-sm-9">
+            {{ content }}
+          </div>
+          <!-- sidebar, which will move to the top on a small screen -->
+          <div class="col-sm-3">
+            <nav id="toc-sidebar" class="sticky-top"></nav>
+          </div>
+        </div>
+        {% else %}
+        <div class="row">
+          <!-- sidebar, which will move to the top on a small screen -->
+          <div class="col-sm-3">
+            <nav id="toc-sidebar" class="sticky-top"></nav>
+          </div>
+          <!-- main content area -->
+          <div class="col-sm-9">
+            {{ content }}
+          </div>
+        </div>
+        {% endif %}
+      {% else %}
+        {{ content }}
+      {% endif %}
+    </div>
     
-    <!-- Footer 
+    <!-- Footer -->
     <div class="page__footer">
       <footer>
         {% include footer/custom.html %}
         {% include footer.html %}
       </footer>
     </div>
-    -->
 
-    <!-- JavaScripts 
+    <!-- JavaScripts -->
     {% include scripts.html %}
     {% include scripts/jquery.html %}
     {% include scripts/bootstrap.html %}
@@ -45,6 +71,5 @@ layout: compress
     {% include scripts/mathjax.html %}
     {% include scripts/analytics.html %}
     {% include scripts/progressBar.html %}
-    -->
   </body>
 </html>
