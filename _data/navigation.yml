@@ -21,12 +21,13 @@ main:
   - title: "CV"
     url: /cv/
 
-  - title: "Gallery"
-    url: /gallery/
-
   - title: "Packages"
     url: /packages/
 
+  - title: "Gallery"
+    url: /gallery/
+
+  
   #- title:"Personal"
   #  url: /personal/
     
