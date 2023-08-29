@@ -30,6 +30,10 @@ layouts_gallery:
     image_path: ../assets/images/gallery/oslo.jpg
   - url: ../assets/images/gallery/unicamp.jpg
     image_path: ../assets/images/gallery/unicamp.jpg
+  - url: ../assets/images/gallery/duplo.jpg
+    image_path: ../assets/images/gallery/duplo.jpg
+  - url: ../assets/images/gallery/sp.jpg
+    image_path: ../assets/images/gallery/sp.jpg
   - url: ../assets/images/gallery/lnls.jpg
     image_path: ../assets/images/gallery/lnls.jpg
   - url: ../assets/images/gallery/bogota.jpg
