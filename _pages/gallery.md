@@ -31,10 +31,3 @@ toc: false
 {% include base_path %}
 
 {% include gallery id="layouts_gallery"  caption="" %}
-
-
-<div class="grid">
-    {%- for project in sorted_projects -%}
-      {% include projects.html %}
-    {%- endfor %}
-</div>
