@@ -10,7 +10,7 @@ layouts_gallery:
     image_path: ../assets/images/gallery/doublerainbow.jpg
   - url: ../assets/images/gallery/ME.jpg
     image_path: ../assets/images/gallery/ME.jpg
-  - url: ../assets/images/gallery/AIFA_winter.jpg
+  - url: ../assets/images/gallery/AIFA_winter.jpeg
     image_path: ../assets/images/gallery/AIFA_winter.jpeg
   - url: ../assets/images/gallery/Dome_winter.jpg
     image_path: ../assets/images/gallery/Dome_winter.jpg
@@ -26,6 +26,10 @@ layouts_gallery:
     image_path: ../assets/images/gallery/gamarra.jpg
   - url: ../assets/images/gallery/blumen.jpg
     image_path: ../assets/images/gallery/blumen.jpg
+  - url: ../assets/images/gallery/copenhagen.jpg
+    image_path: ../assets/images/gallery/copenhagen.jpg
+  - url: ../assets/images/gallery/oslo.jpg
+    image_path: ../assets/images/gallery/oslo.jpg
 toc: false
 ---
 {% include base_path %}
