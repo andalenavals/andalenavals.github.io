@@ -20,6 +20,8 @@ layouts_gallery:
     image_path: ../assets/images/gallery/moon.jpg
   - url: ../assets/images/gallery/bruhl.jpg
     image_path: ../assets/images/gallery/bruhl.jpg
+  - url: ../assets/images/gallery/drachen.jpg
+    image_path: ../assets/images/gallery/drachen.jpg
   - url: ../assets/images/gallery/blumen.jpg
     image_path: ../assets/images/gallery/blumen.jpg
   - url: ../assets/images/gallery/copenhagen.jpg
