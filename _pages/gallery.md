@@ -20,6 +20,8 @@ layouts_gallery:
     image_path: ../assets/images/gallery/moon.jpg
   - url: ../assets/images/gallery/bruhl.jpg
     image_path: ../assets/images/gallery/bruhl.jpg
+  - url: ../assets/images/gallery/duplo.jpg
+    image_path: ../assets/images/gallery/duplo.jpg
   - url: ../assets/images/gallery/drachen.jpg
     image_path: ../assets/images/gallery/drachen.jpg
   - url: ../assets/images/gallery/blumen.jpg
@@ -32,12 +34,10 @@ layouts_gallery:
     image_path: ../assets/images/gallery/dance.jpg
   - url: ../assets/images/gallery/unicamp.jpg
     image_path: ../assets/images/gallery/unicamp.jpg
-  - url: ../assets/images/gallery/duplo.jpg
-    image_path: ../assets/images/gallery/duplo.jpg
-  - url: ../assets/images/gallery/sp.jpg
-    image_path: ../assets/images/gallery/sp.jpg
   - url: ../assets/images/gallery/lnls.jpg
     image_path: ../assets/images/gallery/lnls.jpg
+  - url: ../assets/images/gallery/sp.jpg
+    image_path: ../assets/images/gallery/sp.jpg
   - url: ../assets/images/gallery/bogota.jpg
     image_path: ../assets/images/gallery/bogota.jpg
   - url: ../assets/images/gallery/morrocoy.jpg
