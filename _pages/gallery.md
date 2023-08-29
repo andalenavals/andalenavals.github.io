@@ -28,6 +28,8 @@ layouts_gallery:
     image_path: ../assets/images/gallery/copenhagen.jpg
   - url: ../assets/images/gallery/oslo.jpg
     image_path: ../assets/images/gallery/oslo.jpg
+  - url: ../assets/images/gallery/dance.jpg
+    image_path: ../assets/images/gallery/dance.jpg
   - url: ../assets/images/gallery/unicamp.jpg
     image_path: ../assets/images/gallery/unicamp.jpg
   - url: ../assets/images/gallery/duplo.jpg
