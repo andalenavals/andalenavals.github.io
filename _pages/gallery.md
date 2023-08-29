@@ -18,12 +18,8 @@ layouts_gallery:
     image_path: ../assets/images/gallery/botanic_garten.jpg
   - url: ../assets/images/gallery/moon.jpg
     image_path: ../assets/images/gallery/moon.jpg
-  - url: ../assets/images/gallery/bogota.jpg
-    image_path: ../assets/images/gallery/bogota.jpg
-  - url: ../assets/images/gallery/morrocoy.jpg
-    image_path: ../assets/images/gallery/morrocoy.jpg
-  - url: ../assets/images/gallery/gamarra.jpg
-    image_path: ../assets/images/gallery/gamarra.jpg
+  - url: ../assets/images/gallery/bruhl.jpg
+    image_path: ../assets/images/gallery/bruhl.jpg
   - url: ../assets/images/gallery/blumen.jpg
     image_path: ../assets/images/gallery/blumen.jpg
   - url: ../assets/images/gallery/copenhagen.jpg
@@ -34,6 +30,12 @@ layouts_gallery:
     image_path: ../assets/images/gallery/unicamp.jpg
   - url: ../assets/images/gallery/lnls.jpg
     image_path: ../assets/images/gallery/lnls.jpg
+  - url: ../assets/images/gallery/bogota.jpg
+    image_path: ../assets/images/gallery/bogota.jpg
+  - url: ../assets/images/gallery/morrocoy.jpg
+    image_path: ../assets/images/gallery/morrocoy.jpg
+  - url: ../assets/images/gallery/gamarra.jpg
+    image_path: ../assets/images/gallery/gamarra.jpg
 toc: false
 ---
 {% include base_path %}
