@@ -6,36 +6,35 @@ author_profile: false
 layouts_gallery:
   - url: ../assets/images/gallery/OWLnebula.jpg
     image_path: ../assets/images/gallery/OWLnebula.jpg
-    alt: "Owl Nebula. 2023-01-14"
   - url: ../assets/images/gallery/doublerainbow.jpg
     image_path: ../assets/images/gallery/doublerainbow.jpg
-    alt: "tu"
   - url: ../assets/images/gallery/ME.jpg
     image_path: ../assets/images/gallery/ME.jpg
-    alt: "ella"
   - url: ../assets/images/gallery/AIFA_winter.jpg
     image_path: ../assets/images/gallery/AIFA_winter.jpeg
-    alt: "ella"
   - url: ../assets/images/gallery/Dome_winter.jpg
     image_path: ../assets/images/gallery/Dome_winter.jpg
-    alt: "ella"
   - url: ../assets/images/gallery/botanic_garten.jpg
     image_path: ../assets/images/gallery/botanic_garten.jpg
-    alt: "ella"
   - url: ../assets/images/gallery/moon.jpg
     image_path: ../assets/images/gallery/moon.jpg
-    alt: "ella"
   - url: ../assets/images/gallery/bogota.jpg
     image_path: ../assets/images/gallery/bogota.jpg
-    alt: "ella"
   - url: ../assets/images/gallery/morrocoy.jpg
     image_path: ../assets/images/gallery/morrocoy.jpg
-    alt: "ella"
   - url: ../assets/images/gallery/gamarra.jpg
     image_path: ../assets/images/gallery/gamarra.jpg
-    alt: "ella"
-toc: true
+  - url: ../assets/images/gallery/blumen.jpg
+    image_path: ../assets/images/gallery/blumen.jpg
+toc: false
 ---
 {% include base_path %}
 
 {% include gallery id="layouts_gallery"  caption="" %}
+
+
+<div class="grid">
+    {%- for project in sorted_projects -%}
+      {% include projects.html %}
+    {%- endfor %}
+</div>
