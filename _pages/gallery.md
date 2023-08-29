@@ -25,6 +25,15 @@ layouts_gallery:
   - url: ../assets/images/gallery/moon.jpg
     image_path: ../assets/images/gallery/moon.jpg
     alt: "ella"
+  - url: ../assets/images/gallery/bogota.jpg
+    image_path: ../assets/images/gallery/bogota.jpg
+    alt: "ella"
+  - url: ../assets/images/gallery/morrocoy.jpg
+    image_path: ../assets/images/gallery/morrocoy.jpg
+    alt: "ella"
+  - url: ../assets/images/gallery/gamarra.jpg
+    image_path: ../assets/images/gallery/gamarra.jpg
+    alt: "ella"
 toc: true
 ---
 {% include base_path %}
