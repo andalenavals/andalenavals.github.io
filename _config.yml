@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Andres Alejandro Navarro Alsina"
+title                    : "Andres Navarro"
 title_separator          : "-"
 name                     : &name "Andres Navarro"
 description              : &description ""
@@ -31,6 +31,7 @@ comments:
     num_posts            : # 5 (default)
     colorscheme          : # "light" (default), "dark"
 search 			 : true
+search_full_content	 : true
 staticman:
   allowedFields          : ['name', 'email', 'url', 'message']
   branch                 : "gh-pages" # "master", "gh-pages"
