@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Research"
-permalink: /vorschung/
+permalink: /forschung/
 author_profile: false
 toc: true
 nav: true
