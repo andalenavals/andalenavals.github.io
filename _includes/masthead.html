@@ -5,8 +5,7 @@
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
         <button><div class="navicon"></div></button>
-	 <a class="site-title" href="{{ '/' | relative_url }}">
-          {{ site.masthead_title | default: site.title }}
+	<a class="site-title" href="{{ '/' | relative_url }}">
           {% if site.subtitle %}<span class="site-subtitle">{{ site.subtitle }}</span>{% endif %}
         </a>
         <ul class="visible-links">
