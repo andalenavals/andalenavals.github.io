@@ -4,7 +4,13 @@ title: "Gallery"
 permalink: /gallery/
 author_profile: false
 layouts_gallery:
-  - url: ../assets/images/gallery/OWLnebula.jpg
+  - Url: ../assets/images/gallery/italy1.jpg
+    image_path: ../assets/images/gallery/italy1.jpg
+  - url: ../assets/images/gallery/italy2.jpg
+    image_path: ../assets/images/gallery/italy2.jpg
+  - url: ../assets/images/gallery/italy3.jpg
+    image_path: ../assets/images/gallery/italy3.jpg
+  - Url: ../assets/images/gallery/OWLnebula.jpg
     image_path: ../assets/images/gallery/OWLnebula.jpg
   - url: ../assets/images/gallery/doublerainbow.jpg
     image_path: ../assets/images/gallery/doublerainbow.jpg
@@ -30,10 +36,6 @@ layouts_gallery:
     image_path: ../assets/images/gallery/copenhagen.jpg
   - url: ../assets/images/gallery/oslo.jpg
     image_path: ../assets/images/gallery/oslo.jpg
-  - url: ../assets/images/gallery/dance.jpg
-    image_path: ../assets/images/gallery/dance.jpg
-  - url: ../assets/images/gallery/unicamp.jpg
-    image_path: ../assets/images/gallery/unicamp.jpg
   - url: ../assets/images/gallery/lnls.jpg
     image_path: ../assets/images/gallery/lnls.jpg
   - url: ../assets/images/gallery/sp.jpg
