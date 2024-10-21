@@ -4,14 +4,14 @@ title: "Gallery"
 permalink: /gallery/
 author_profile: false
 layouts_gallery:
-  - Url: ../assets/images/gallery/italy1.jpg
+  - url: ../assets/images/gallery/italy1.jpg
     image_path: ../assets/images/gallery/italy1.jpg
   - url: ../assets/images/gallery/italy2.jpg
     image_path: ../assets/images/gallery/italy2.jpg
+  - url: ../assets/images/gallery/OWLnebula.jpg
+    image_path: ../assets/images/gallery/OWLnebula.jpg
   - url: ../assets/images/gallery/italy3.jpg
     image_path: ../assets/images/gallery/italy3.jpg
-  - Url: ../assets/images/gallery/OWLnebula.jpg
-    image_path: ../assets/images/gallery/OWLnebula.jpg
   - url: ../assets/images/gallery/doublerainbow.jpg
     image_path: ../assets/images/gallery/doublerainbow.jpg
   - url: ../assets/images/gallery/ME.jpg
