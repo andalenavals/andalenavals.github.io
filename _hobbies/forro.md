@@ -17,17 +17,9 @@ Rooted in the traditions of Luiz Gonzaga, the "King of Baião," Forró blends th
 In rural towns and big cities alike, Forró lives on as a symbol of cultural pride and resilience. It bridges generations, breaks down barriers, and reminds us that in the rhythm of the dance, we find community, identity, and the power of joy.
 
 <div style="text-align: center;">
-<video width="500" controls>
-  <source src="/assets/images/hobbies/kuisi_short.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-</div>
-
-
-<div style="text-align: center;">
   <figure style="display: inline-block; border: 2px solid #ccc; padding: 10px; border-radius: 10px;">
     <video width="500" controls style="display: block; border-radius: 6px;">
-      <source src="/assets/images/hobbies/kuisi_short.mp4" type="video/mp4">
+      <source src="/assets/images/hobbies/forro_short.mp4" type="video/mp4">
       Your browser does not support the video tag.
     </video>
     <figcaption style="margin-top: 8px; font-style: italic; color: #555;">

@@ -17,10 +17,14 @@ Born from the wisdom of the Kogi, Arhuaco, and Wayuu peoples, the kuisi channels
 In cumbia and other Afro-Indigenous rhythms, the kuisi carries the soul of a people whose stories have long been sung through its haunting melodies. It doesn’t just play notes — it weaves centuries of tradition, identity, and resilience into every sound. Today, artists and cultural guardians breathe new life into the kuisi, ensuring its voice continues to inspire, heal, and awaken those who listen.
 
 <div style="text-align: center;">
-<video width="500" controls>
-  <source src="/assets/images/hobbies/kuisi_short.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-
-Credit: Esteban Pardo
+  <figure style="display: inline-block; border: 2px solid #ccc; padding: 10px; border-radius: 10px;">
+    <video width="500" controls style="display: block; border-radius: 6px;">
+      <source src="/assets/images/hobbies/kuisi_short.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <figcaption style="margin-top: 8px; font-style: italic; color: #555;">
+      Credit: Esteban Pardo
+    </figcaption>
+  </figure>
 </div>
+
