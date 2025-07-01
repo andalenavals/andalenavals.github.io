@@ -27,6 +27,9 @@ main:
   - title: "Gallery"
     url: /gallery/
 
+  - title: "Hobbies"	
+    url: /hobies/
+
   
   #- title:"Personal"
   #  url: /personal/
