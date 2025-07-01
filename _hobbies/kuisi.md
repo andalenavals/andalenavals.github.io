@@ -3,7 +3,7 @@ layout: page
 title: "Kuisi"
 description: The indigenous soul in traditional Colombian Cumbia
 img: assets/images/hobbies/kuisi.png
-importance: 3
+importance: 1
 category: work
 collection: research
 author_profile: false
@@ -16,7 +16,9 @@ Born from the wisdom of the Kogi, Arhuaco, and Wayuu peoples, the kuisi channels
 
 In cumbia and other Afro-Indigenous rhythms, the kuisi carries the soul of a people whose stories have long been sung through its haunting melodies. It doesn’t just play notes — it weaves centuries of tradition, identity, and resilience into every sound. Today, artists and cultural guardians breathe new life into the kuisi, ensuring its voice continues to inspire, heal, and awaken those who listen.
 
+<div style="text-align: center;">
 <video width="500" controls>
   <source src="/assets/images/hobbies/kuisi_short.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
+</div>
