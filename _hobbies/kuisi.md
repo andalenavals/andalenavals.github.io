@@ -21,4 +21,6 @@ In cumbia and other Afro-Indigenous rhythms, the kuisi carries the soul of a peo
   <source src="/assets/images/hobbies/kuisi_short.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
+
+Credit: Esteban Pardo
 </div>
