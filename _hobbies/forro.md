@@ -18,7 +18,7 @@ In rural towns and big cities alike, Forró lives on as a symbol of cultural pri
 
 <div style="text-align: center;">
   <figure style="display: inline-block; border: 2px solid #ccc; padding: 10px; border-radius: 10px;">
-    <video width="500" controls style="display: block; border-radius: 6px;">
+    <video width="400" controls style="display: block; border-radius: 6px;">
       <source src="/assets/images/hobbies/forro_short.mp4" type="video/mp4">
       Your browser does not support the video tag.
     </video>
