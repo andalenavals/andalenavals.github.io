@@ -23,8 +23,9 @@ In cumbia and other Afro-Indigenous rhythms, the kuisi carries the soul of a peo
       Your browser does not support the video tag.
     </video>
     <figcaption style="margin-top: 8px; font-style: italic; color: #555;">
-      Credit: Esteban Pardo
+      Credit: Esteban Pardo and <a href="https://www.instagram.com/tejidovivo/" target="_blank" style="display:inline-block;padding:10px 15px;background:#E4405F;color:white;text-decoration:none;border-radius:5px;">Instagram Profile</a>
     </figcaption>
   </figure>
 </div>
 
+[Visit Tejido Vivo on Bandcamp](https://tejidovivo.bandcamp.com/)
