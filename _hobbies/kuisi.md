@@ -32,7 +32,4 @@ In cumbia and other Afro-Indigenous rhythms, the kuisi carries the soul of a peo
 
 <a href="https://www.instagram.com/elcaimanmusic/" target="_blank" style="display:inline-block;padding:10px 15px;background:#E4405F;color:white;text-decoration:none;border-radius:5px;">@elcaimanmusic</a>
 
-<a href="https://tejidovivo.bandcamp.com/" target="_blank" style="display:inline-block;padding:10px 15px;background:#E4405F;color:white;text-decoration:none;border-radius:5px;">Colombia, Tejido vivo </a>
-
-
-[Visit Tejido Vivo on Bandcamp](https://tejidovivo.bandcamp.com/)
+<a href="https://tejidovivo.bandcamp.com/" target="_blank" style="display:inline-block;padding:10px 15px;background:#E4405F;color:white;text-decoration:none;border-radius:5px;">Colombia Megadiversa - Tejido vivo </a>
