@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "MomentsML"
-description: Machine Learning shallow network accurate prediction of shear estimators for The Euclid Satellite
+description: Custom connected neuronal networks to accurately predict graviational shear
 img: assets/images/research/euclid_thumbnail.jpg
 importance: 1
 category: work
