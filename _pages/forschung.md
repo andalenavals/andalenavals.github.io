@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Research"
+title: "Research Projects"
 permalink: /forschung/
 author_profile: false
 toc: true
