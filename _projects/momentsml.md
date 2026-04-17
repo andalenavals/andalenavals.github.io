@@ -14,12 +14,12 @@ MomentsML is a machine learning method designed to provide accurate shear estima
 
 The Euclid Satellite, which aims to study the dark exotic components of the universe and reveal insights about cosmological tensions, uses MomentsML as one of its three independent shear measurement methods.
 
-# Regressions
+# Toy model of a simple inverse regression
 
 In this example, a simple network is created to inverse regress the function  
-\( f(\theta) = \sqrt{1.0 + \theta^{2}} \).  
+$ f(\theta) = \sqrt{1.0 + \theta^{2}} $.
 
-This means we want to predict \( \hat{\theta} \), given a set of noisy measurements of \( f(\theta) \).
+This means we want to predict $ \hat{\theta} $, given a set of noisy measurements of $ f(\theta) $.
 
 We created 3D mock data with the structure `(ncases, nreas, nfeats)`:
 - **ncases**: number of target values  
@@ -27,8 +27,8 @@ We created 3D mock data with the structure `(ncases, nreas, nfeats)`:
 - **nfeats**: number of features  
 
 Two feature setups are tested:
-- \( (f(\theta) + n) \)
-- \( (f(\theta) + n, n) \)
+- $ (f(\theta) + n) $
+- $ (f(\theta) + n, n) $
 
 ---
 
