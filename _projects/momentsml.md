@@ -54,9 +54,9 @@ Training of a neural network with:
 - **MSB loss function**
 - different dropout probabilities
 
-![Dropout probability 0.2](/assets/images/research/momentsml/examples/regression/inverse/animations/out/point_noise_regression_dropout_animation_2feats_msb_dp0.20/validation/inverse_regression.gif)
+![Dropout probability 0.2](/assets/images/research/momentsml/point_noise_regression_dropout_animation_2feats_msb_dp0.20/validation/inverse_regression.gif)
 
-![Dropout probability 0.4](/assets/images/research/momentsml/examples/regression/inverse/animations/out/point_noise_regression_dropout_animation_2feats_msb_dp0.40/validation/inverse_regression.gif)
+![Dropout probability 0.4](/assets/images/research/momentsml/point_noise_regression_dropout_animation_2feats_msb_dp0.40/validation/inverse_regression.gif)
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Compton Camera"
-description: Monte Carlo simulation (GEANT4) of an imaging device using backscattered gamma radiation. The Compton camera is particularly well-suited for applications requiring precise spatial characterization, especially in scenarios where the target cannot be positioned along a direct line between the source and detector. This approach offers strong potential for use cases such as landmine detection and pipeline corrosion assessment.
+description: Monte Carlo simulation (GEANT4) of an imaging device using backscattered gamma radiation. The Compton camera offers strong potential for use cases such as landmine detection and pipeline corrosion assessment.
 img: assets/images/research/g4.png
 importance: 3
 category: work
