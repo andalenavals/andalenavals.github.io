@@ -40,11 +40,16 @@
 @import "minimal-mistakes/print";
 
 /* Fix spacing between project image and description */
-.card .card-title {
-  margin-bottom: 0.3rem;
+.card {
+  padding: 0;
+  overflow: hidden; /* keeps rounded corners clean */
 }
 
-.card .card-text {
-  margin-top: 0;
-  margin-bottom: 0;
+.card figure {
+  margin: 0;
+}
+
+.card img {
+  display: block;
+  width: 100%;
 }
