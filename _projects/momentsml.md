@@ -40,9 +40,9 @@ Training of a neural network with:
 - loss functions: **MSE** and **MSB**
 - using the two feature sets mentioned above
 
-![Using MSE](assets/images/research/momentsml/point_noise_regression_animation_2feats_mse/validation/inverse_regression.gif)
+![Using MSE](/assets/images/research/momentsml/point_noise_regression_animation_2feats_mse/validation/inverse_regression.gif)
 
-![Using MSB](assets/images/research/momentsml/point_noise_regression_animation_2feats_msb/validation/inverse_regression.gif)
+![Using MSB](/assets/images/research/momentsml/point_noise_regression_animation_2feats_msb/validation/inverse_regression.gif)
 
 ---
 
@@ -54,9 +54,9 @@ Training of a neural network with:
 - **MSB loss function**
 - different dropout probabilities
 
-![Dropout probability 0.2](assets/images/research/momentsml/examples/regression/inverse/animations/out/point_noise_regression_dropout_animation_2feats_msb_dp0.20/validation/inverse_regression.gif)
+![Dropout probability 0.2](/assets/images/research/momentsml/examples/regression/inverse/animations/out/point_noise_regression_dropout_animation_2feats_msb_dp0.20/validation/inverse_regression.gif)
 
-![Dropout probability 0.4](assets/images/research/momentsml/examples/regression/inverse/animations/out/point_noise_regression_dropout_animation_2feats_msb_dp0.40/validation/inverse_regression.gif)
+![Dropout probability 0.4](/assets/images/research/momentsml/examples/regression/inverse/animations/out/point_noise_regression_dropout_animation_2feats_msb_dp0.40/validation/inverse_regression.gif)
 
 ---
 
