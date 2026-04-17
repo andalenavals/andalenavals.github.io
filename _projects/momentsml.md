@@ -59,5 +59,3 @@ Training of a neural network with:
 ![Dropout probability 0.4](/assets/images/research/momentsml/point_noise_regression_dropout_animation_2feats_msb_dp0.40/validation/inverse_regression.gif)
 
 ---
-
-## Probabilistic estimate inverse regression with IndependentNormal
