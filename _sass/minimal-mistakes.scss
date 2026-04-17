@@ -40,18 +40,11 @@
 @import "minimal-mistakes/print";
 
 /* Fix spacing between project image and description */
-.card figure {
-  margin: 0;
+.card .card-title {
+  margin-bottom: 0.3rem;
 }
 
-.card img {
-  display: block;
-}
-
-.card-body {
-  padding-top: 0.5rem;
-}
-
-.card-text {
+.card .card-text {
   margin-top: 0;
+  margin-bottom: 0;
 }
