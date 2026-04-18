@@ -91,3 +91,11 @@ $max-content-width: {{ site.max_width }};
 .projects .grid-item {
   width: 30% !important;
 }
+
+.wide-page .container,
+.wide-page .wrapper,
+.wide-page .post,
+.wide-page .page {
+  max-width: 1400px !important;
+  width: 100% !important;
+}
