@@ -38,3 +38,20 @@
 @import "minimal-mistakes/archive";
 @import "minimal-mistakes/sidebar";
 @import "minimal-mistakes/print";
+
+.project-thumb-figure {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  line-height: 0;
+}
+
+.project-thumb-img {
+  display: block;
+  width: 100%;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+.grid-item .card {
+  overflow: hidden;
+}
