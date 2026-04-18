@@ -1,5 +1,5 @@
 ---
-layout: splash
+layout: page
 title: "Research Projects"
 permalink: /forschung/
 author_profile: false
