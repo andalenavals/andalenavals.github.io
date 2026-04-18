@@ -16,14 +16,12 @@
   {% endif %}
 {% endif %}
 
-<div class="grid gallery-grid {{ gallery_layout }} {{ include.class }}">
-  <div class="grid-sizer"></div>
-
+<div class="gallery-grid {{ gallery_layout }} {{ include.class }}">
   {% for img in gallery %}
-    <div class="grid-item">
+    <div class="gallery-item">
       {% if img.url %}
         <a href="{{ img.url | relative_url }}"
-           {% if img.title %}title="{{ img.title }}"{% endif %}>
+          {% if img.title %}title="{{ img.title }}"{% endif %}>
           <img src="{{ img.image_path | relative_url }}"
                alt="{% if img.alt %}{{ img.alt }}{% endif %}">
         </a>
