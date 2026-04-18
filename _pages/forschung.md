@@ -3,7 +3,7 @@ layout: page
 title: "Research Projects"
 permalink: /forschung/
 author_profile: false
-toc: true
+toc: false
 nav: true
 nav_order: 2
 horizontal: false
