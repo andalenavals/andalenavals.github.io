@@ -7,6 +7,7 @@ toc: false
 nav: true
 nav_order: 2
 horizontal: false
+classes: wide-page
 ---
 {% include base_path %} 
 
