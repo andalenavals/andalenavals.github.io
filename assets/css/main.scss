@@ -81,8 +81,7 @@ $max-content-width: {{ site.max_width }};
 }
 
 
-.grid-item .card.hoverable .card-body .row {
+.grid-item .card.hoverable .card-text {
   margin-bottom: 0 !important;
-  padding-bottom: 0 !important;
 }
 
