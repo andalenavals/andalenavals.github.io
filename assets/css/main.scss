@@ -72,12 +72,12 @@ $max-content-width: {{ site.max_width }};
 .grid-item .card.hoverable .card-body {
     padding-top: 0 !important;
     padding-bottom: 0 !important;
-    padding-left: 0.05rem !important;
-    padding-right: 0.05rem !important;
+    padding-left: 0.2rem !important;
+    padding-right: 0.2rem !important;
 }
 
 .grid-item .card.hoverable .card-body h2.card-title {
-  margin-top: 0.1rem !important;
+  margin-top: 0.3rem !important;
   margin-bottom: 0.0rem !important;
   line-height: 1.1 !important;
 }
