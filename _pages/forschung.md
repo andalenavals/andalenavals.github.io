@@ -2,12 +2,12 @@
 layout: page
 title: "Research Projects"
 permalink: /forschung/
-author_profile: false
+# author_profile: false
 toc: false
 nav: true
 nav_order: 2
 horizontal: false
-classes: wide-page
+# classes: wide-page
 ---
 {% include base_path %} 
 
