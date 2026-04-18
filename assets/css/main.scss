@@ -68,6 +68,21 @@ $max-content-width: {{ site.max_width }};
   padding: 0 !important;
 }
 
+/* Reduce space between thumbnail and text */
+.grid-item .card.hoverable .card-body {
+  padding-top: 0.4rem !important;
+}
+
+.grid-item .card.hoverable .card-title {
+  margin-top: 0 !important;
+  margin-bottom: 0.25rem !important;
+}
+
+.grid-item .card.hoverable .card-text {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
 .grid-item .card.hoverable .card-body {
   padding-top: 0 !important;
 }
