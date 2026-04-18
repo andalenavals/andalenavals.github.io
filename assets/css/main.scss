@@ -107,13 +107,14 @@ $max-content-width: {{ site.max_width }};
   column-gap: 12px;
 }
 
-.gallery-grid .grid-item {
-  break-inside: avoid;
-  margin-bottom: 12px;
+@media (max-width: 1200px) {
+  .gallery-grid { column-count: 3; }
 }
 
-.gallery-grid img {
-  width: 100%;
-  height: auto;
-  display: block;
+@media (max-width: 800px) {
+  .gallery-grid { column-count: 2; }
+}
+
+@media (max-width: 500px) {
+  .gallery-grid { column-count: 1; }
 }
