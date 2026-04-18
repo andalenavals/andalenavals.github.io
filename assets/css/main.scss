@@ -100,3 +100,24 @@ $max-content-width: {{ site.max_width }};
   max-width: 1400px !important;
   width: 100% !important;
 */
+
+/* Gallery masonry widths */
+.gallery-grid.third .grid-sizer,
+.gallery-grid.third .grid-item {
+  width: 32%;
+}
+
+.gallery-grid.half .grid-sizer,
+.gallery-grid.half .grid-item {
+  width: 48%;
+}
+
+.gallery-grid .grid-item {
+  margin-bottom: 12px;
+}
+
+.gallery-grid img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
