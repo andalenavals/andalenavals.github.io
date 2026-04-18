@@ -38,18 +38,3 @@
 @import "minimal-mistakes/archive";
 @import "minimal-mistakes/sidebar";
 @import "minimal-mistakes/print";
-
-/* Remove space above image in project cards */
-.card {
-  padding-top: 0 !important;
-  padding: 0 !important;
-}
-
-.card > figure {
-  margin: 0 !important;
-}
-
-.card img {
-  display: block;
-  width: 100%;
-}
