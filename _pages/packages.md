@@ -1,5 +1,5 @@
 ---
-layout: archive
+layout: page
 title: ""
 permalink: /packages/
 author_profile: false

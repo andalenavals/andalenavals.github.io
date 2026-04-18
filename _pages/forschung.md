@@ -1,15 +1,17 @@
 ---
 layout: page
-title: "Research Projects"
+title: ""
 permalink: /forschung/
 # author_profile: false
-toc: false
+toc: true
 nav: true
 nav_order: 2
 horizontal: false
 # classes: wide-page
 ---
 {% include base_path %} 
+
+# Research Projects
 
 <div class="projects">
 {%- if site.enable_project_categories and page.display_categories %}
