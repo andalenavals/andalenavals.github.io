@@ -39,19 +39,19 @@
 @import "minimal-mistakes/sidebar";
 @import "minimal-mistakes/print";
 
-.project-thumb-figure {
-  margin-top: 0 !important;
-  margin-bottom: 0 !important;
-  line-height: 0;
+.grid-item .card.hoverable {
+  padding: 0 !important;
 }
 
-.project-thumb-img {
-  display: block;
-  width: 100%;
-  margin-top: 0 !important;
-  margin-bottom: 0 !important;
+.grid-item .card.hoverable .project-thumb-figure {
+  margin: 0 !important;
+  padding: 0 !important;
+  line-height: 0 !important;
 }
 
-.grid-item .card {
-  overflow: hidden;
+.grid-item .card.hoverable .project-thumb-img {
+  display: block !important;
+  width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
 }
