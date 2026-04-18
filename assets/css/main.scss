@@ -103,18 +103,20 @@ $max-content-width: {{ site.max_width }};
 
 /* Gallery masonry widths */
 .gallery-grid {
+  display: block !important;
   column-count: 4;
   column-gap: 12px;
 }
 
-@media (max-width: 1200px) {
-  .gallery-grid { column-count: 3; }
+.gallery-grid .grid-item {
+  display: inline-block;
+  width: 100% !important;
+  margin: 0 0 12px 0;
+  break-inside: avoid;
 }
 
-@media (max-width: 800px) {
-  .gallery-grid { column-count: 2; }
-}
-
-@media (max-width: 500px) {
-  .gallery-grid { column-count: 1; }
+.gallery-grid img {
+  display: block;
+  width: 100%;
+  height: auto;
 }
