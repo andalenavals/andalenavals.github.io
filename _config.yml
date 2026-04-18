@@ -362,7 +362,7 @@ compress_html:
 rss_icon: true
 navbar_fixed: true
 footer_fixed: true
-max_width: 1000px
+max_width: 800px
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
