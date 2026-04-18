@@ -39,21 +39,17 @@
 @import "minimal-mistakes/sidebar";
 @import "minimal-mistakes/print";
 
-/* Fix spacing between project image and description */
+/* Remove space above image in project cards */
 .card {
-  padding: 0;
-  overflow: hidden; /* keeps rounded corners clean */
+  padding-top: 0 !important;
+  padding: 0 !important;
 }
 
-.card figure {
-  margin: 0;
+.card > figure {
+  margin: 0 !important;
 }
 
 .card img {
   display: block;
   width: 100%;
-}
-
-.card.hoverable {
-  padding-top: 0;
 }
