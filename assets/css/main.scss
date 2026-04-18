@@ -47,3 +47,23 @@ $max-content-width: {{ site.max_width }};
 @import "vendor/font-awesome/brands";
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
+
+/* Project card thumbnail spacing fix */
+.grid-item .card.hoverable > figure.project-thumb-figure {
+  margin: 0 !important;
+  padding: 0 !important;
+  line-height: 0 !important;
+}
+
+.grid-item .card.hoverable > figure.project-thumb-figure picture {
+  display: block !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.grid-item .card.hoverable > figure.project-thumb-figure img.project-thumb-img {
+  display: block !important;
+  width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
