@@ -69,16 +69,12 @@ $max-content-width: {{ site.max_width }};
 }
 
 /* Reduce space between thumbnail and text */
-.grid-item .card.hoverable .card-title {
-  margin-top: 0 !important;
-  margin-bottom: 0 !important;
-}
-
-.grid-item .card.hoverable .card-text {
-  margin-top: 0 !important;
-  margin-bottom: 0 !important;
-}
-
 .grid-item .card.hoverable .card-body {
   padding-top: 0 !important;
+}
+
+.grid-item .card.hoverable .card-body h2.card-title {
+  margin-top: 0 !important;
+  margin-bottom: 0.15rem !important;
+  line-height: 1.1 !important;
 }
