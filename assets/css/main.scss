@@ -87,3 +87,7 @@ $max-content-width: {{ site.max_width }};
   margin-bottom: 0 !important;
 }
 
+.projects .grid-sizer,
+.projects .grid-item {
+  width: 100% !important;
+}
