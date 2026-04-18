@@ -1,6 +1,6 @@
 {%- assign img_path = include.path | remove: ".jpg" | remove: ".jpeg" | remove: ".png" | remove: ".tiff" -%}
 
-<figure>
+<figure{% if include.figure_class %} class="{{ include.figure_class }}"{% endif %}>
 
   <picture>
     {% if site.imagemagick.enabled %}
