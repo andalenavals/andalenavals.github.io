@@ -1,4 +1,22 @@
-<div class="grid gallery-grid">
+{% if include.id %}
+  {% assign gallery = page[include.id] %}
+{% else %}
+  {% assign gallery = page.gallery %}
+{% endif %}
+
+{% if include.layout %}
+  {% assign gallery_layout = include.layout %}
+{% else %}
+  {% if gallery.size == 2 %}
+    {% assign gallery_layout = 'half' %}
+  {% elsif gallery.size >= 3 %}
+    {% assign gallery_layout = 'third' %}
+  {% else %}
+    {% assign gallery_layout = '' %}
+  {% endif %}
+{% endif %}
+
+<div class="grid gallery-grid {{ gallery_layout }} {{ include.class }}">
   <div class="grid-sizer"></div>
 
   {% for img in gallery %}
@@ -17,8 +35,8 @@
   {% endfor %}
 
   {% if include.caption %}
-    <div class="gallery-caption">
-      {{ include.caption | markdownify }}
-    </div>
+    <figcaption class="gallery-caption">
+      {{ include.caption | markdownify | remove: "<p>" | remove: "</p>" }}
+    </figcaption>
   {% endif %}
 </div>
