@@ -112,6 +112,7 @@ $max-content-width: {{ site.max_width }};
   display: inline-block;
   width: 100% !important;
   margin: 0 0 12px 0;
+  margin-bottom: 16px; /* ✅ this adds vertical (row) gap */
   break-inside: avoid;
 }
 
