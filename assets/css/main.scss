@@ -49,19 +49,19 @@ $max-content-width: {{ site.max_width }};
 @import "print";
 
 /* Project card thumbnail spacing fix */
-.grid-item .card.hoverable > figure.project-thumb-figure {
+.projects .card.hoverable figure.project-thumb-figure {
   margin: 0 !important;
   padding: 0 !important;
   line-height: 0 !important;
 }
 
-.grid-item .card.hoverable > figure.project-thumb-figure picture {
+.projects .card.hoverable figure.project-thumb-figure picture {
   display: block !important;
   margin: 0 !important;
   padding: 0 !important;
 }
 
-.grid-item .card.hoverable > figure.project-thumb-figure img.project-thumb-img {
+.projects .card.hoverable figure.project-thumb-figure img.project-thumb-img {
   display: block !important;
   width: 100% !important;
   margin: 0 !important;
@@ -69,22 +69,35 @@ $max-content-width: {{ site.max_width }};
 }
 
 /* Reduce space between thumbnail and text */
-.grid-item .card.hoverable .card-body {
+.projects .card.hoverable .card-body {
     padding-top: 0 !important;
     padding-bottom: 0 !important;
     padding-left: 0.3rem !important;
     padding-right: 0.3rem !important;
 }
 
-.grid-item .card.hoverable .card-body h2.card-title {
+.projects .card.hoverable .card-body h2.card-title,
+.projects .card.hoverable .card-body h3.card-title {
   margin-top: 0.5rem !important;
   margin-bottom: 0.0rem !important;
   line-height: 1.1 !important;
 }
 
 
-.grid-item .card.hoverable .card-text {
+.projects .card.hoverable .card-text {
   margin-bottom: 0 !important;
+}
+
+.projects .card.hoverable .project-links {
+  margin-top: 0.25rem !important;
+  margin-bottom: 0 !important;
+  line-height: 1 !important;
+}
+
+.projects .card.hoverable .project-links .github-icon {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
 }
 
 /*
