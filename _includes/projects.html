@@ -27,15 +27,25 @@
           <!-- Description -->
           <p class="card-text">{{ project.description }}</p>
 
-          <!-- GitHub section ONLY if it exists -->
-          {%- if project.github -%}
+          <!-- External project links -->
+          {%- if project.github or project.demo -%}
           <div class="row ml-1 mr-1 p-0">
             <div class="github-icon">
+              {%- if project.demo -%}
+              <div class="icon" data-toggle="tooltip" title="Live Demo">
+                <a href="{{ project.demo }}">
+                  <i class="fas fa-external-link-alt gh-icon"></i>
+                </a>
+              </div>
+              {%- endif -%}
+
+              {%- if project.github -%}
               <div class="icon" data-toggle="tooltip" title="Code Repository">
                 <a href="{{ project.github }}">
                   <i class="fab fa-github gh-icon"></i>
                 </a>
               </div>
+              {%- endif -%}
 
               {%- if project.github_stars -%}
               <span class="stars" data-toggle="tooltip" title="GitHub Stars">

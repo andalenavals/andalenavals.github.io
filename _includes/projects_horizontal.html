@@ -17,7 +17,15 @@
           <div class="card-body">
             <h3 class="card-title text-lowercase">{{ project.title }}</h3>
             <p class="card-text">{{ project.description }}</p>
+            {%- if project.github or project.demo -%}
             <div class="row ml-1 mr-1 p-0">
+              {%- if project.demo -%}
+              <div class="github-icon">
+                <div class="icon" data-toggle="tooltip" title="Live Demo">
+                  <a href="{{ project.demo }}"><i class="fas fa-external-link-alt gh-icon"></i></a>
+                </div>
+              </div>
+              {%- endif -%}
               {%- if project.github -%}
               <div class="github-icon">
                 <div class="icon" data-toggle="tooltip" title="Code Repository">
@@ -32,6 +40,7 @@
               </div>
               {%- endif -%}
             </div>
+            {%- endif -%}
           </div>
         </div>
       </div>
