@@ -4,9 +4,9 @@
 
 <div class="grid-item">
   {% if project.redirect -%}
-    <a href="{{ project.redirect }}">
+    <a href="{{ project.redirect }}" data-analytics-event="project_card_click" data-link-type="card" data-project="{{ project.title | escape }}">
   {%- else -%}
-    <a href="{{ project.url | relative_url }}">
+    <a href="{{ project.url | relative_url }}" data-analytics-event="project_card_click" data-link-type="card" data-project="{{ project.title | escape }}">
   {%- endif %}
 
       <div class="card hoverable">
@@ -33,7 +33,7 @@
             <div class="github-icon">
               {%- if project.demo -%}
               <div class="icon" data-toggle="tooltip" title="Live Demo">
-                <a href="{{ project.demo }}">
+                <a href="{{ project.demo }}" data-analytics-event="project_demo_click" data-link-type="demo" data-project="{{ project.title | escape }}">
                   <i class="fas fa-external-link-alt gh-icon"></i>
                 </a>
               </div>
@@ -41,7 +41,7 @@
 
               {%- if project.github -%}
               <div class="icon" data-toggle="tooltip" title="Code Repository">
-                <a href="{{ project.github }}">
+                <a href="{{ project.github }}" data-analytics-event="project_github_click" data-link-type="github" data-project="{{ project.title | escape }}">
                   <i class="fab fa-github gh-icon"></i>
                 </a>
               </div>

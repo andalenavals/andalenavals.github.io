@@ -98,7 +98,7 @@ social:
 
 # Analytics
 analytics:
-  provider               :  "google-universal" # false (default), "google", "google-universal", "custom"
+  provider               : false # false (default), "google", "google-universal", "custom"
   google:
     tracking_id          :
 
@@ -369,7 +369,7 @@ max_width: 800px
 # Analytics and search engine verification
 # -----------------------------------------------------------------------------
 
-google_analytics:  # your Google Analytics measurement ID (format: G-XXXXXXXXXX)
+google_analytics: G-JNHH424XWD # your Google Analytics measurement ID (format: G-XXXXXXXXXX)
 panelbear_analytics:  # panelbear analytics site ID (format: XXXXXXXXX)
 
 google_site_verification:  # your google-site-verification ID (Google Search Console)

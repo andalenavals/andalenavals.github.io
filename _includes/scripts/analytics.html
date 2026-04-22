@@ -1,4 +1,4 @@
-{%- if site.enable_google_analytics -%}
+{%- if site.enable_google_analytics and site.google_analytics and page.analytics != false -%}
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
   <script>
@@ -6,6 +6,23 @@
     function gtag(){ window.dataLayer.push(arguments); }
     gtag('js', new Date());
     gtag('config', '{{ site.google_analytics }}');
+
+    document.addEventListener('click', function(event) {
+      var link = event.target.closest('a');
+      if (!link || !link.href) return;
+
+      var explicitEvent = link.dataset.analyticsEvent;
+      var isExternal = link.hostname && link.hostname !== window.location.hostname;
+      var eventName = explicitEvent || (isExternal ? 'external_link_click' : 'internal_link_click');
+
+      gtag('event', eventName, {
+        link_url: link.href,
+        link_text: (link.textContent || '').trim().slice(0, 100),
+        link_type: link.dataset.linkType || (isExternal ? 'external' : 'internal'),
+        project: link.dataset.project || '',
+        page_path: window.location.pathname
+      });
+    });
   </script>
 {%- endif -%}
 {%- if site.enable_panelbear_analytics -%}
