@@ -7,22 +7,60 @@
     gtag('js', new Date());
     gtag('config', '{{ site.google_analytics }}');
 
+    function analyticsEventName(link, explicitEvent, isExternal) {
+      if (explicitEvent) return explicitEvent;
+      if (link.closest('#navbar')) return 'nav_click';
+      if (link.closest('.page__footer')) return 'footer_click';
+      if (link.closest('.author__urls, .author__content, .author__avatar')) return 'profile_link_click';
+      if (/\.(pdf|zip|csv|ipynb|md|txt)$/i.test(link.pathname || '')) return 'file_download_click';
+      return isExternal ? 'external_link_click' : 'internal_link_click';
+    }
+
     document.addEventListener('click', function(event) {
       var link = event.target.closest('a');
       if (!link || !link.href) return;
 
       var explicitEvent = link.dataset.analyticsEvent;
       var isExternal = link.hostname && link.hostname !== window.location.hostname;
-      var eventName = explicitEvent || (isExternal ? 'external_link_click' : 'internal_link_click');
+      var eventName = analyticsEventName(link, explicitEvent, isExternal);
 
       gtag('event', eventName, {
         link_url: link.href,
         link_text: (link.textContent || '').trim().slice(0, 100),
         link_type: link.dataset.linkType || (isExternal ? 'external' : 'internal'),
+        link_label: link.dataset.linkLabel || link.dataset.navLabel || '',
+        nav_label: link.dataset.navLabel || '',
         project: link.dataset.project || '',
+        page_title: document.title,
         page_path: window.location.pathname
       });
     });
+
+    (function() {
+      var milestones = [25, 50, 75, 90];
+      var sent = {};
+
+      function sendScrollDepth() {
+        var doc = document.documentElement;
+        var scrollTop = window.pageYOffset || doc.scrollTop || 0;
+        var scrollHeight = Math.max(doc.scrollHeight - window.innerHeight, 1);
+        var percent = Math.round((scrollTop / scrollHeight) * 100);
+
+        milestones.forEach(function(milestone) {
+          if (percent >= milestone && !sent[milestone]) {
+            sent[milestone] = true;
+            gtag('event', 'scroll_depth', {
+              percent_scrolled: milestone,
+              page_title: document.title,
+              page_path: window.location.pathname
+            });
+          }
+        });
+      }
+
+      window.addEventListener('scroll', sendScrollDepth, { passive: true });
+      sendScrollDepth();
+    })();
   </script>
 {%- endif -%}
 {%- if site.enable_panelbear_analytics -%}

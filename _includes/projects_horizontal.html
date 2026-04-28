@@ -21,8 +21,15 @@
           <div class="card-body">
             <h3 class="card-title text-lowercase">{{ project.title }}</h3>
             <p class="card-text">{{ project.description }}</p>
-            {%- if project.github or project.demo -%}
+            {%- if project.github or project.demo or project.docs -%}
             <div class="row ml-1 mr-1 p-0 project-links">
+              {%- if project.docs -%}
+              <div class="github-icon">
+                <div class="icon" data-toggle="tooltip" title="Documentation">
+                  <a href="{{ project.docs }}" data-analytics-event="project_docs_click" data-link-type="docs" data-project="{{ project.title | escape }}"><i class="fas fa-book gh-icon"></i></a>
+                </div>
+              </div>
+              {%- endif -%}
               {%- if project.demo -%}
               <div class="github-icon">
                 <div class="icon" data-toggle="tooltip" title="Live Demo">

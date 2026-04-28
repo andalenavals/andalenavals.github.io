@@ -28,9 +28,17 @@
           <p class="card-text">{{ project.description }}</p>
 
           <!-- External project links -->
-          {%- if project.github or project.demo -%}
+          {%- if project.github or project.demo or project.docs -%}
           <div class="row ml-1 mr-1 p-0 project-links">
             <div class="github-icon">
+              {%- if project.docs -%}
+              <div class="icon" data-toggle="tooltip" title="Documentation">
+                <a href="{{ project.docs }}" data-analytics-event="project_docs_click" data-link-type="docs" data-project="{{ project.title | escape }}">
+                  <i class="fas fa-book gh-icon"></i>
+                </a>
+              </div>
+              {%- endif -%}
+
               {%- if project.demo -%}
               <div class="icon" data-toggle="tooltip" title="Live Demo">
                 <a href="{{ project.demo }}" data-analytics-event="project_demo_click" data-link-type="demo" data-project="{{ project.title | escape }}">

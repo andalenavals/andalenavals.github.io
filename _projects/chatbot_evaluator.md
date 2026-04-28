@@ -10,6 +10,7 @@ author_profile: false
 date: 2026-04-01
 github: https://github.com/andalenavals/chatbot_performance_evaluator/
 demo: https://andalenavals-chatbot-performance-evaluator.hf.space
+docs: https://andalenavals.github.io/chatbot_performance_evaluator/overview.html
 ---
 
 The **Chatbot Performance Evaluator** is a modular framework for systematically benchmarking, validating, and monitoring chatbot behavior. It was designed around a practical industry problem: once a chatbot is exposed to users, the difficult part is no longer only building the assistant, but proving that it continues to answer correctly, safely, and consistently as prompts, models, policies, and domain knowledge evolve.
@@ -18,10 +19,10 @@ The project turns chatbot quality checks into a repeatable engineering workflow.
 
 ## Links
 
-- [GitHub repository](https://github.com/andalenavals/chatbot_performance_evaluator/)
-- [Live Streamlit demo](https://andalenavals-chatbot-performance-evaluator.hf.space)
-- [Documentation overview](https://andalenavals.github.io/chatbot_performance_evaluator/overview.html)
-- [Metrics documentation](https://andalenavals.github.io/chatbot_performance_evaluator/metrics.html)
+- <a href="https://github.com/andalenavals/chatbot_performance_evaluator/" data-analytics-event="project_github_click" data-link-type="github" data-project="Chatbot Performance Evaluator">GitHub repository</a>
+- <a href="https://andalenavals-chatbot-performance-evaluator.hf.space" data-analytics-event="project_demo_click" data-link-type="demo" data-project="Chatbot Performance Evaluator">Live Streamlit demo</a>
+- <a href="https://andalenavals.github.io/chatbot_performance_evaluator/overview.html" data-analytics-event="project_docs_click" data-link-type="docs" data-project="Chatbot Performance Evaluator">Documentation overview</a>
+- <a href="https://andalenavals.github.io/chatbot_performance_evaluator/metrics.html" data-analytics-event="project_docs_click" data-link-type="docs" data-project="Chatbot Performance Evaluator">Metrics documentation</a>
 
 ## What It Evaluates
 

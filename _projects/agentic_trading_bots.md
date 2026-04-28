@@ -10,6 +10,7 @@ author_profile: false
 date: 2026-04-15
 github: https://github.com/andalenavals/agentic-trading-bots/
 demo: https://andalenavals.github.io/agentic-trading-bots/
+docs: https://andalenavals.github.io/agentic-trading-bots/docs/
 ---
 
 The **Agentic Trading Bots** project is a local-first commodity decision-support dashboard for exploring market signals and trained trading-bot behavior. It combines LME copper, nickel, and aluminium price data with curated commodity news, generated sentiment features, and saved PPO agent decisions.
@@ -18,9 +19,9 @@ The project is designed as a compact MVP that still keeps the data pipeline, ana
 
 ## Links
 
-- [Interactive demo](https://andalenavals.github.io/agentic-trading-bots/)
-- [GitHub repository](https://github.com/andalenavals/agentic-trading-bots/)
-- [Sphinx documentation](https://andalenavals.github.io/agentic-trading-bots/docs/)
+- <a href="https://andalenavals.github.io/agentic-trading-bots/" data-analytics-event="project_demo_click" data-link-type="demo" data-project="Agentic Trading Bots">Interactive demo</a>
+- <a href="https://github.com/andalenavals/agentic-trading-bots/" data-analytics-event="project_github_click" data-link-type="github" data-project="Agentic Trading Bots">GitHub repository</a>
+- <a href="https://andalenavals.github.io/agentic-trading-bots/docs/" data-analytics-event="project_docs_click" data-link-type="docs" data-project="Agentic Trading Bots">Sphinx documentation</a>
 
 ## What It Shows
 
